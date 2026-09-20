@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Sorrento Beach, Perth",
+ "correct": false,
+ "cost": 0.00018240000000002698,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vZnxhP4dk4FQNionwcbFiOGR",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"man killed in shark attack June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vZnxhP4dk4FQNionwcbFiOGR",
+   "content": "[Shark kills swimmer off Australian beach as witnesses recall ...] 2 days ago · A swimmer was killed by a shark at Sorrento Beach in Perth, Western Australia, marking the country's fifth fatal shark attack this year.\n[Swimmer killed in shark attack in front of horrified beachgoers] 2 days ago · A man was killed by a shark as he swam off a Western Australian city beach Friday while beachgoers watched in horror. Boats and helicopters searched the ocean off Sorrento Beach in Perth's ...\n[Australia: Man killed in shark attack near Perth - dw.com] 2 days ago · 09/18/2026 A swimmer was mauled by a shark, with witnesses reporting a massive pool of blood in the water. There have been four confirmed fatal shark attacks in Australia this year."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Sorrento Beach, Perth",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

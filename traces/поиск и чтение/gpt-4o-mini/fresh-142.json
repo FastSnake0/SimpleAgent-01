@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?",
+  "answer": "Diamond DA42 Twin Star",
+  "evidence": "29 April — Two people are killed and 11 others are injured when a Diamond DA42 Twin Star crashes into a hangar at Parafield Airport in South Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Diamond DA42 Twin Star",
+ "correct": true,
+ "cost": 0.0002251500000000073,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3YV0fsANd9SFlWuMU4vJko9E",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Parafield Airport crash April 29 aircraft type\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3YV0fsANd9SFlWuMU4vJko9E",
+   "content": "[Collision with terrain involving Diamond DA42, VH-YQP ...Collision with terrain involving Diamond DA42, VH-YQPTragic Crash at Parafield Airport Claims Two Lives SuddenlyAdam's Report: Diamond DA42 Twin Star, VH-YQP, fatal accident ...Fatal plane crash at Parafield Airport, Adelaide, kills ...Diamond DA42 Crash: ATSB Links Failure to Nose Landing Gear] Apr 29, 2026 · Collision with terrain involving Diamond DA42, VH-YQP, Parafield Airport, South Australia, on 29 April 2026 The occurrence On the afternoon of 29 April 2026, a Diamond DA42 twin-engine aircraft, registered VH-YQP and operated by Flight Training Adelaide at Parafield Airport, South Australia, was being prepared for a training flight.1 On board was a pilot under instruction (‘the pilot’) seated in the left seat, and an instructor in the right seat. Apr 29, 2026 · On 29 April 2026 a Diamond DA42 Twin Star aircraft struck a hangar at Parafield Airport in South Australia, killing two people and leaving eleven others injured. Apr 29, 2026 · The accident aircraft, serial number 42.213, was manufactured in 2007. It was a 4-seat, twin engine, low wing, T-tailed, retractable gear airp\n[Tragic Crash at Parafield Airport Claims Two Lives Suddenly] Apr 29, 2026 · On 29 April 2026 a Diamond DA42 Twin Star aircraft struck a hangar at Parafield Airport in South Australia, killing two people and leaving eleven others injured.\n[Fatal plane crash at Parafield Airport, Adelaide, kills ...] Apr 29, 2026 · A Diamond DA42 twin-engined aircraft crashed into hangar 54 at Parafield Airport in Adelaide’s north on April 29, 2026, at approximately 2:10pm, killing an instructor and a student pilot and injuring several others inside the hangar."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Diamond DA42 Twin Star",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

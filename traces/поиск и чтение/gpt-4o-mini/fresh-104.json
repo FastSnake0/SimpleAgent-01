@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-104",
+  "source": "fresh",
+  "question": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?",
+  "answer": "21",
+  "evidence": "20 April – A bus falls into a gorge in Udhampur, Jammu and Kashmir, killing 21 people and injuring 45 others.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "Could you clarify which specific incident you're referring to? There have been multiple bus accidents in Udhampur. One notable accident killed 10 people, but different incidents have had different death tolls.",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 21",
+ "correct": true,
+ "cost": 0.0011394000000000126,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_B0QYXAWhHaISR9Dy2gnE9dMS",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur Jammu bus accident victims killed number\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_B0QYXAWhHaISR9Dy2gnE9dMS",
+   "content": "[Udhampur Bus Accident:15 killed, 20 others injured as bus ...] Apr 21, 2026 · Twenty-one people — including five women — were killed and 45 others injured Monday when an Udhampur-bound bus rolled into a gorge near Ramnagar in Jammu and Kashmir. A probe has been ordered as rescue and relief efforts continue.\n[Udhampur bus accident: 22 killed as bus overturns in J&K ...] Apr 20, 2026 · At least 22 people were killed, and 30 others injured after a passenger bus skidded off the road and plunged into a gorge in Jammu and Kashmir’s Udhampur district on Monday morning. The death toll is feared to rise further as many of the injured are in critical condition.\n[Jammu Bus Tragedy: 16 Dead, 19 Injured After Passenger ...] Apr 20, 2026 · At least 16 people were killed and 19 injured after a passenger bus plunged off a blind curve in Udhampur, Jammu and Kashmir. Read how locals launched rescue efforts, officials rushed to the spot, and Union Minister Jitendra Singh coordinated plans to airlift the critically injured."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Gnubsq1wFc2JCvl8u1aUvlCd",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur Jammu and Kashmir bus accident April 2026 number of casualties\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Gnubsq1wFc2JCvl8u1aUvlCd",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8OOFKE1z5n5OnH2bFvROek8b",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur Jammu bus accident April 2026 fatalities\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8OOFKE1z5n5OnH2bFvROek8b",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gERaFDYgt2dvNTkp12Nq9QtI",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur bus accident details April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gERaFDYgt2dvNTkp12Nq9QtI",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DnONXEBG68hwu8Bzb0oSjIt3",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"bus accident Udhampur Jammu Kashmir death toll April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DnONXEBG68hwu8Bzb0oSjIt3",
+   "content": "[Udhampur Bus Tragedy: 21 Dead After Bus Falls Into Gorge Near ...] Apr 20, 2026 · Officials have confirmed that at least 21 people have died in the accident, including several women. However, the number of injured varies between 29 and 45 across different official and local reports. This discrepancy is not unusual in the immediate aftermath of such disasters.\n[Bus rolls down hill in Jammu and Kashmir’s Udhampur, seven ...] Twenty-one people were killed and more than 61 injured after an overcrowded passenger bus tumbled down a hillside in Udhampur district of Jammu and Kashmir on Monday (April 20, 2026). The bus ...\n[Jammu & Kashmir: 21 Killed, 51 Injured in Udhampur Bus Tragedy] Apr 20, 2026 · At least 21 people died and 51 others sustained injuries when a passenger bus veered off a mountainous road and plunged approximately 100 metres down a hillside in Udhampur district of Jammu and Kashmir on Monday."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OcWIXHTeyXfsDHGaIIpF2qgr",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur bus accident April 2026 confirmed deaths\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OcWIXHTeyXfsDHGaIIpF2qgr",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hPcEIFfHqtscJPeUZVNf7ESg",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Udhampur Jammu Kashmir bus accident April 20 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hPcEIFfHqtscJPeUZVNf7ESg",
+   "content": "[Udhampur Bus Tragedy: 21 Dead After Bus Falls Into Gorge Near ...] Apr 20, 2026 · A routine morning journey turned into a devastating tragedy in Jammu & Kashmir on Monday, April 20, 2026, when a passenger bus veered off a narrow mountain road and plunged into a deep gorge near Ramnagar in Udhampur district.\n[Bus rolls down hill in Jammu and Kashmir’s Udhampur, seven ...] Twenty-one people were killed and more than 61 injured after an overcrowded passenger bus tumbled down a hillside in Udhampur district of Jammu and Kashmir on Monday (April 20, 2026). The bus ...\n[21 Killed, 29 Injured After Bus Rolls Down Hill In J&K's ...] Apr 20, 2026 · As many as 21 people were killed while 29 others sustained injuries after the bus they were travelling in rolled down a hillside in the Udhampur district of Jammu and Kashmir on Monday morning."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 21",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

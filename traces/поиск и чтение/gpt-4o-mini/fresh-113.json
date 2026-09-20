@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Я не нашел информации о количестве сокращений, объявленных Statistics Canada 13 января 2026 года. \n\nFINAL: Не найдено данных",
+ "correct": false,
+ "cost": 0.0006376499999999341,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lO6C0zAKhOefTGi3FYMEaHf9",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lO6C0zAKhOefTGi3FYMEaHf9",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FoMAWDNSpwdE0drHNNGOQutg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FoMAWDNSpwdE0drHNNGOQutg",
+   "content": "[Timeline of the 2025–2026 United States trade war with Canada] <p class=\"mw-empty-elt\"> </p> <p>On February 1, 2025, United States president Donald Trump announced sweeping tariffs on Canadian goods, including a 25% tariff on most imports and a 10% tariff on Canadian energy products. Canada responded with its own retaliatory tariffs on $30 billion worth of U.S. goods, escalating to $155 billion after three weeks. These measures marked a significant escalation in trade tensions, disrupting longstanding cross-border economic cooperation and prompting both countries to implement additional countermeasures and support programs for affected industries. </p><p>The conflict quickly expanded to include tariffs on steel, aluminum, automobiles, and a range of consumer goods, with both federal and provincial governments in Canada taking steps to mitigate the impact on businesses and workers. The trade war has led to market volatility, strained diplomatic relations, and forced companies on both sides of the border to adapt to new supply chain realities, while ongoing negotiations and temporary exemptions have provided only limited relief amid continued uncertainty. </p><p>In early 2026, the Supreme Court of the United States struck down several of Trump's sweeping emergency tariffs imposed under the International Emergency Economic Powers Act, in Learning Resources, Inc. v. Trump prompting Trump to announce a new temporary 10% global tariff that largely exempts CUSMA-compliant Canadian and Mexican goods but leaves sector-specific and other trade measures in place. </p> <h2 data-mw-anchor=\"2024\" data-mw-wikitext=\"\">2024</h2> <ul><li><b>February 21, 2024</b> The bilateral trade relationship between the United States and Canada is one of the world's largest—Canada buys \"more from American businesses than the UK, France, China and Japan combined\". In 2023, a total of <span>US$923</span> billion goods and services was traded. Both the energy and automotive markets are highly integr"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IEMy3uBW0fXeOCgj401D0KU1",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Statistics Canada layoffs January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IEMy3uBW0fXeOCgj401D0KU1",
+   "content": "[Canada Layoff Monthly Report: January 2026 | LayoffsCanada] Monthly Canada layoff report for January 2026, including month-over-month change and distribution by province, city, industry, and company.\n[Job Loss Statistics in Canada 2026 | Layoffs, Unemployment ...] Job losses in Canada have followed a genuinely unusual pattern through 2026: tens of thousands of layoffs concentrated in government, manufacturing, and technology have unfolded at the same time as the national unemployment rate actually improved to a two-year low by midyear.\n[Canada Layoff Statistics 2026 — Industry & Province Trends] Since January 2026, 66,062 workers across 241 Canadian companies have been laid off. The hardest-hit industries are Government (24,273 workers), Manufacturing (8,919) and Technology (8,794). By province, Ontario leads with 16,978 layoffs, followed by Quebec (6,070) and British Columbia (3,941)."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_puK5zM14wxElGprjcnXcx7YY",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Statistics Canada\",\"keywords\":\"January 13, 2026, job cuts\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_puK5zM14wxElGprjcnXcx7YY",
+   "content": "By law, every household must complete the Canada census form. In May 2006, an Internet version of the census was made widely available for the first time. Another census was held in May 2011, again with the internet being the primary method for statistical data collection. The most recent census was held in May 2026, with the resulting data expected to be published in seven separate data sets throughout 2027. Additional data will be published at a future date which has yet to be determined."
+  },
+  {
+   "role": "assistant",
+   "content": "Я не нашел информации о количестве сокращений, объявленных Statistics Canada 13 января 2026 года. \n\nFINAL: Не найдено данных",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

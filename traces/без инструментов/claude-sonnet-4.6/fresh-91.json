@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Let me search for information about this scheme and the amount released by Shivraj Singh Chouhan.\n\nI don't have specific information about a \"VB-G RAM-G scheme\" or an amount released by Shivraj Singh Chouhan in July 2026 in my training data. My knowledge cutoff is July 2025, so I cannot access events from July 2026.\n\nFINAL: Unable to determine",
+ "correct": false,
+ "cost": 0.0023849999999999705,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for information about this scheme and the amount released by Shivraj Singh Chouhan.\n\nI don't have specific information about a \"VB-G RAM-G scheme\" or an amount released by Shivraj Singh Chouhan in July 2026 in my training data. My knowledge cutoff is July 2025, so I cannot access events from July 2026.\n\nFINAL: Unable to determine",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

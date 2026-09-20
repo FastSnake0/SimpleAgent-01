@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 2",
+ "correct": false,
+ "cost": 0.0002847000000000266,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OksUFbbIVGCp5sJNug0po1Du",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"avalanche near Ratschings March 2026 casualties\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OksUFbbIVGCp5sJNug0po1Du",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fdFHP1cl5WfHlNdYnPVNvFNo",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Ratschings avalanche March 2026 death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fdFHP1cl5WfHlNdYnPVNvFNo",
+   "content": "[Avalanche Tragedy: 2 Skiers Killed, 5 Injured in Northern ...] Mar 22, 2026 · 30-second brief Two skiers killed, five injured in South Tyrol avalanche on March 21, 2026. Europe's deadliest avalanche season claims 127 lives, with Italy leading at 33 fatalities. Essential safety tips and equipment guide included.\n[Avalanche in Val Ridanna (South Tyrol): Two Dead, Multiple ...] Mar 21, 2026 · According to early reports from Corriere dell’Alto Adige and Italian news agencies, two people have died, while others were buried or partially buried by the avalanche in what is now one of the most serious South Tyrol avalanche incidents of the season.\n[A deadly South Tyrol avalanche kills 2 skiers, trapping 25 ...] Mar 21, 2026 · The CNSAS rescue service's Bolzano emergency center reported that 25 skiers were caught in the avalanche. Besides the two dead, three were seriously injured and two lightly injured, it said."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

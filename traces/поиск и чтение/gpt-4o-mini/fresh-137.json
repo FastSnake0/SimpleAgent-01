@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?",
+  "answer": "Fontainebleau",
+  "evidence": "13 July – A major wildfire breaks out at Fontainebleau forest.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Gironde",
+ "correct": false,
+ "cost": 0.0012631499999999907,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VtfyOWHW7QxbmijYBvXLfBvU",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"France forest wildfire July 2026 1300 hectares\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VtfyOWHW7QxbmijYBvXLfBvU",
+   "content": "[2026 France wildfires - Wikipedia] In 2026, wildfires affected France, particularly in the north and south of the country, burning 115,000 ha (280,000 acres). [1][2] The wildfire season is classified as the worst in the country since 1949.\n[Wildfire Statistics in France 2026 | Fires, Areas Burned ...] Jul 26, 2026 · Wildfires in France 2026 France is enduring its worst wildfire season on record in 2026, with roughly 98,000 to 100,000 hectares burned nationwide as of July 25-26, according to French Interior Minister Laurent Nunez. The crisis remains active and unresolved as of this writing, with major fires still uncontained in the departments of Gironde, Landes,\n[France Spain wildfires July 2026: 300,000 evacuated, ongoing] Jul 25, 2026 · As of July 25, 2026, the largest wildfires in France are burning in southwest France, primarily in the Gironde and Landes departments. The fires have reached the Atlantic coast, forcing the evacuation of the entire Cap-Ferret peninsula near Arcachon and Bordeaux, a major summer tourist destination."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1fcfmU7izLrI8bEJVlg3dzzA",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"wildfire major French forest July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1fcfmU7izLrI8bEJVlg3dzzA",
+   "content": "[Wildfires in 2026] <p>The <b>2026 wildfire season</b> involves wildfires on multiple continents. </p><p>Below is an ongoing list of articles on wildfires from around the world in the year 2026. </p> <h2 data-mw-anchor=\"Africa\" data-mw-wikitext=\"\">Africa</h2> <h3 data-mw-anchor=\"Algeria\" data-mw-wikitext=\"\">Algeria</h3> <ul><li>2026 Algeria wildfires</li></ul> <h2 data-mw-anchor=\"Asia\" data-mw-wikitext=\"\">Asia</h2> <h3 data-mw-anchor=\"Japan\" data-mw-wikitext=\"\">Japan</h3> <ul><li>2026 Ōtsuchi wildfire</li></ul> <h3 data-mw-anchor=\"Turkey\" data-mw-wikitext=\"\">Turkey</h3> <ul><li>Muğla Wildfire</li></ul> <h3 data-mw-anchor=\"Indonesia\" data-mw-wikitext=\"\">Indonesia</h3> <ul><li>2026 Indonesia wildfires <ul><li>Bromo Tengger Semeru National Park Wildfire</li></ul></li></ul> <h2 data-mw-anchor=\"Europe\" data-mw-wikitext=\"\">Europe</h2> <h3 data-mw-anchor=\"Belgium\" data-mw-wikitext=\"\">Belgium</h3> <ul><li>2026 Belgium wildfires <ul><li>Hautes Fagnes wildfire</li></ul></li></ul> <h3 data-mw-anchor=\"Croatia\" data-mw-wikitext=\"\">Croatia</h3> <ul><li>2026 Croatia wildfires <ul><li>The Hvar Island Fire</li> <li>Korčula Island Fire</li> <li>Lokva Rogoznica Wildfire</li></ul></li></ul> <h3 data-mw-anchor=\"France\" data-mw-wikitext=\"\">France</h3> <ul><li>2026 France wildfires <ul><li>Trévillach Wildfire</li> <li>2026 Fontainebleau wildfire</li> <li>Gironde Wildfire</li></ul></li></ul> <h3 data-mw-anchor=\"Greece\" data-mw-wikitext=\"\">Greece</h3> <ul><li>2026 Greece wildfires <ul><li>Thessaloniki Wildfire</li> <li>Paros Wildfire</li></ul></li></ul> <h3 data-mw-anchor=\"Germany\" data-mw-wikitext=\"\">Germany</h3> <ul><li>Müritz National Park fire</li></ul> <h3 data-mw-anchor=\"Ireland\" data-mw-wikitext=\"\">Ireland</h3> <ul><li>Slievenamon Fire</li></ul> <h3 data-mw-anchor=\"Italy\" data-mw-wikitext=\"\">Italy</h3> <ul><li>2026 Italy wildfires</li></ul> <h3 data-mw-anchor=\"Norway\" data-mw-wikitext=\"\">Norway</h3> <ul><li>Krokstadelva fire</li></ul> <h3 data-mw-anchor=\"Portugal\" data-mw-wikitext=\"\""
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RYVN5Ot8jzrXTyuL3fu0dkx1",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 France wildfires\",\"keywords\":\"wildfire forest July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RYVN5Ot8jzrXTyuL3fu0dkx1",
+   "content": "В статье «2026 France wildfires» строк с ключевыми словами ['wildfire forest july 2026'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aAxIDoTLSD3XU6lnXpJhVQR2",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 France wildfires\",\"keywords\":\"wildfire Gironde Landes\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aAxIDoTLSD3XU6lnXpJhVQR2",
+   "content": "В статье «2026 France wildfires» строк с ключевыми словами ['wildfire gironde landes'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sE4I2sIfMc728P4ip37RZbCc",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 France wildfires\",\"keywords\":\"Trévillach wildfire Fontainebleau wildfire Gironde wildfire\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sE4I2sIfMc728P4ip37RZbCc",
+   "content": "В статье «2026 France wildfires» строк с ключевыми словами ['trévillach wildfire fontainebleau wildfire gironde wildfire'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tPgfmmDZSHhccaSAYu7vihyc",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 wildfires Fontainebleau Gironde Landes July news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tPgfmmDZSHhccaSAYu7vihyc",
+   "content": "[2026 France wildfires - Wikipedia] In 2026, wildfires affected France, particularly in the north and south of the country, burning 115,000 ha (280,000 acres). [1][2] The wildfire season is classified as the worst in the country since 1949.\n[France Spain wildfires July 2026: 300,000 evacuated, ongoing] Jul 25, 2026 · As of July 25, 2026, the largest wildfires in France are burning in southwest France, primarily in the Gironde and Landes departments. The fires have reached the Atlantic coast, forcing the evacuation of the entire Cap-Ferret peninsula near Arcachon and Bordeaux, a major summer tourist destination.\n[Forest Fires in Gironde and the Landes. Bulletin dated July ...] Jul 29, 2026 · Forest Fires in Gironde and the Landes. Bulletin dated July 29, 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aN1J16Vqb8ikd2QKEEa5sJ4U",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Gironde wildfire July\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aN1J16Vqb8ikd2QKEEa5sJ4U",
+   "content": "[2026 France wildfires - Wikipedia] The fire began to generate its own weather, with pyrocumulonimbus (\"fire thunderstorm\") effects creating lightning and starting additional fires. This is an extremely rare event, frequent in North America and Australia, but never before seen in France.\n[France Wildfires 2026: Bordeaux, Gironde and Atlantic Coast ...] Aug 7, 2026 · The Gironde fire (Lège-Cap-Ferret, Le Porge, Lacanau, Saumos) burned around 42,000 hectares and has been fixed since 27 July 2026; the prefecture downgraded the forest-fire alert from red to orange on 4 August. More than 90% of the roughly 224,000 people evacuated at the fire’s peak have now returned home, including all of Lège-Cap-Ferret and most of Le Porge from 3 August; only the Ferron ...\n[France Wildfires 2026: 10,000 Evacuated in Gironde as ...] Jul 23, 2026 · A fast-moving wildfire near Bordeaux and Arcachon Bay has forced more than 10,000 evacuations, scorching 2,000 hectares of forest in southwestern France."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Gironde",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

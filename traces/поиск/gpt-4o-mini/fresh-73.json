@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Информация о событиях 31 августа 2026 года в Южной Корее отсутствует. \n\nFINAL: информация недоступна",
+ "correct": false,
+ "cost": 0.0008731499999999892,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_X74zHUSmC9KirgOT97P29de5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"two years' imprisonment for bribery South Korea August 31, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_X74zHUSmC9KirgOT97P29de5",
+   "content": "[2026 in South Korea] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>Scheduled events in <b>2026 in South Korea</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – A KAI T-50 Golden Eagle of the Republic of Korea Air Force overturns during an emergency landing at Gwangju Air Base in Gwangju. Both pilots are unharmed.</li> <li>16 January – <ul><li>Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.</li> <li>A massive fire breaks out at Guryong Village in Gangnam, Seoul.</li></ul></li> <li>21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>9 February – An AH-1S Cobra attack helicopter of the Republic of Korea Army crashes in Gapyeong County, killing its two crew.</li> <li>10 February – Authorities carry out raids on the National Intelligence Service and the Korea Defense Intelligence Command as part of investigations into drone flights carried out into North Korea.</li> <li>12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.</li> <li>25 February – An F"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Cemt0gkGy25BDJU42xXo8IkW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"August 31 2026 bribery sentence South Korea\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Cemt0gkGy25BDJU42xXo8IkW",
+   "content": "[2026 in South Korea] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>Scheduled events in <b>2026 in South Korea</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – A KAI T-50 Golden Eagle of the Republic of Korea Air Force overturns during an emergency landing at Gwangju Air Base in Gwangju. Both pilots are unharmed.</li> <li>16 January – <ul><li>Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.</li> <li>A massive fire breaks out at Guryong Village in Gangnam, Seoul.</li></ul></li> <li>21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>9 February – An AH-1S Cobra attack helicopter of the Republic of Korea Army crashes in Gapyeong County, killing its two crew.</li> <li>10 February – Authorities carry out raids on the National Intelligence Service and the Korea Defense Intelligence Command as part of investigations into drone flights carried out into North Korea.</li> <li>12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.</li> <li>25 February – An F"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Jd8iulmTsIH3dR4QCXtrpsHp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"August 31 2026 South Korea bribery news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Jd8iulmTsIH3dR4QCXtrpsHp",
+   "content": "[2026 in South Korea] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>Scheduled events in <b>2026 in South Korea</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – A KAI T-50 Golden Eagle of the Republic of Korea Air Force overturns during an emergency landing at Gwangju Air Base in Gwangju. Both pilots are unharmed.</li> <li>16 January – <ul><li>Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.</li> <li>A massive fire breaks out at Guryong Village in Gangnam, Seoul.</li></ul></li> <li>21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>9 February – An AH-1S Cobra attack helicopter of the Republic of Korea Army crashes in Gapyeong County, killing its two crew.</li> <li>10 February – Authorities carry out raids on the National Intelligence Service and the Korea Defense Intelligence Command as part of investigations into drone flights carried out into North Korea.</li> <li>12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.</li> <li>25 February – An F"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_seHXQRgQdyw8JWAqokI2WtI6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"who sentenced to imprisonment for bribery South Korea August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_seHXQRgQdyw8JWAqokI2WtI6",
+   "content": "[2026 in South Korea] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>Scheduled events in <b>2026 in South Korea</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – A KAI T-50 Golden Eagle of the Republic of Korea Air Force overturns during an emergency landing at Gwangju Air Base in Gwangju. Both pilots are unharmed.</li> <li>16 January – <ul><li>Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.</li> <li>A massive fire breaks out at Guryong Village in Gangnam, Seoul.</li></ul></li> <li>21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>9 February – An AH-1S Cobra attack helicopter of the Republic of Korea Army crashes in Gapyeong County, killing its two crew.</li> <li>10 February – Authorities carry out raids on the National Intelligence Service and the Korea Defense Intelligence Command as part of investigations into drone flights carried out into North Korea.</li> <li>12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.</li> <li>19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.</li> <li>25 February – An F"
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о событиях 31 августа 2026 года в Южной Корее отсутствует. \n\nFINAL: информация недоступна",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which country did Spain suspend Schengen Area agreements with in August 2026?",
+  "answer": "Italy",
+  "evidence": "9 August – Spain suspends Schengen Area agreements with Italy for one month in response to similar measures imposed by the latter country over the 2026 Morocco–Spain border incident.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, Spain suspended Schengen Area agreements with **Italy** in August 2026. According to the Spanish Ministry of the Interior, starting August 8, 2026, Spain initiated temporary border identity checks at major airports and ports for travelers arriving from Italy.\n\nFINAL: Italy",
+ "correct": true,
+ "cost": 0.006535999999999653,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Which country did Spain suspend Schengen Area agreements with in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Spain suspending Schengen Area agreements in August 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UGAvVQhE4Ghnm3URUceVsT",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Spain suspend Schengen Area agreements August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UGAvVQhE4Ghnm3URUceVsT",
+   "content": "[Spain Restores Border Checks with Italy | Schengen Agreement ...] Aug 23, 2026 · According to the Spanish Ministry of the Interior, starting August 8, 2026, Spain has initiated temporary border identity checks at major airports and ports for travelers arriving from Italy. This move marks a substantial change in the travel status between the two countries.\n[Acuerdo de Schengen - Ministerio del Interior] El Acuerdo de Schengen es un acuerdo por el que varios países de Europa suprimieron los controles en las fronteras interiores (entre esos países) y trasladaron esos controles a las fronteras exteriores (con terceros países).\n[Schengen Crisis 2026: Spain Warns EU Over Border Controls] Aug 1, 2026 · Spain warns of reciprocal border controls after Italy suspended Schengen free movement travel following the Ceuta crisis. Over sixty thousand migrants crossed from Morocco into the Spanish enclave within a single twenty-four-hour period. The official death toll reached sixty-seven people by August first, twenty twenty-six, following the mass crossing attempt."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Spain suspended Schengen Area agreements with **Italy** in August 2026. According to the Spanish Ministry of the Interior, starting August 8, 2026, Spain initiated temporary border identity checks at major airports and ports for travelers arriving from Italy.\n\nFINAL: Italy",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

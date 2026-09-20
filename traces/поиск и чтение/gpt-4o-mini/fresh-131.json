@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "What is the name of the NASA mission that launched on April 1, 2026?",
+  "answer": "Artemis II",
+  "evidence": "On 1 April 2026, the Orion spacecraft lifted off from NASA's Kennedy Space Center and successfully launched the Artemis II crew into orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "Artemis II",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Artemis II",
+ "correct": true,
+ "cost": 0.0011887499999999607,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the NASA mission that launched on April 1, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KwhonlRwZqqeYHePL4Sbl6go",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"NASA mission launched on April 1, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KwhonlRwZqqeYHePL4Sbl6go",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LZwk6ovq4n98sDfyGVY0Yrx6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA mission April 1 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LZwk6ovq4n98sDfyGVY0Yrx6",
+   "content": "[NASA] <p class=\"mw-empty-elt\"> </p> <p>The <b>National Aeronautics and Space Administration</b> (<b>NASA</b> <span></span>) is an independent agency of the U.S. federal government responsible for the United States' civil space program, as well as research in aeronautics and space. Headquartered in Washington, D.C., NASA operates ten field centers across the US and is organized into three mission directorates: Human Spaceflight, Research and Technology, and Science. Established in 1958 amid the Space Race, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the US space program a distinct civilian orientation focused on peaceful applications. Since then, it has led most American spaceflight programs, including Project Mercury, Project Gemini, the Apollo program, Skylab, the Space Shuttle, the International Space Station (ISS), and the ongoing multi-national Artemis program. </p><p>NASA maintains extensive ground and communications infrastructure, including the Deep Space Network and the Near Earth Network. Its science programs focus on Earth observation through the Earth Observing System, heliophysics research, Solar System exploration with robotic missions such as <i>New Horizons</i> and the <i>Perseverance</i> rover, and astrophysics investigations using space-based observatories including the James Webb Space Telescope and the Hubble Space Telescope. The Launch Services Program oversees operations for uncrewed launches. </p><p>The agency supports the ISS through international partnerships and highly successful commercial initiatives, such as the Commercial Crew Program and Commercial Resupply Services. NASA also leads the development of the Orion spacecraft and the Space Launch System rocket for the Artemis program. NASA collaborates globally with organizations including the European Space Agency (ESA), the Japan Aerospace Exploration Agency (JAXA), the Canadian Space Agency (CSA), and Russia's Roscosmos (for ISS operations), as well as "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1iIcBqpA37KXdsQco8iGoXHV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA missions schedule April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1iIcBqpA37KXdsQco8iGoXHV",
+   "content": "[NASA] <p class=\"mw-empty-elt\"> </p> <p>The <b>National Aeronautics and Space Administration</b> (<b>NASA</b> <span></span>) is an independent agency of the U.S. federal government responsible for the United States' civil space program, as well as research in aeronautics and space. Headquartered in Washington, D.C., NASA operates ten field centers across the US and is organized into three mission directorates: Human Spaceflight, Research and Technology, and Science. Established in 1958 amid the Space Race, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the US space program a distinct civilian orientation focused on peaceful applications. Since then, it has led most American spaceflight programs, including Project Mercury, Project Gemini, the Apollo program, Skylab, the Space Shuttle, the International Space Station (ISS), and the ongoing multi-national Artemis program. </p><p>NASA maintains extensive ground and communications infrastructure, including the Deep Space Network and the Near Earth Network. Its science programs focus on Earth observation through the Earth Observing System, heliophysics research, Solar System exploration with robotic missions such as <i>New Horizons</i> and the <i>Perseverance</i> rover, and astrophysics investigations using space-based observatories including the James Webb Space Telescope and the Hubble Space Telescope. The Launch Services Program oversees operations for uncrewed launches. </p><p>The agency supports the ISS through international partnerships and highly successful commercial initiatives, such as the Commercial Crew Program and Commercial Resupply Services. NASA also leads the development of the Orion spacecraft and the Space Launch System rocket for the Artemis program. NASA collaborates globally with organizations including the European Space Agency (ESA), the Japan Aerospace Exploration Agency (JAXA), the Canadian Space Agency (CSA), and Russia's Roscosmos (for ISS operations), as well as "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EgU2REStuQXBbRv34C4pf2e3",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"NASA mission launch schedule April 1 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EgU2REStuQXBbRv34C4pf2e3",
+   "content": "[List of spaceflight launches in April–June 2026 - Wikipedia] This article lists orbital and suborbital launches during the first quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight.\n[2026 in spaceflight - Wikipedia] The Artemis II mission, in which the Earthset photo was captured, carried four astronauts around the Moon in April 2026.\n[2026 Rocket Launch Schedule: Mission Dates & Live Coverage] Explore the complete 2026 rocket launch schedule with details on missions, trajectories, and launch locations for space enthusiasts."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vWIv6eAQcz8z7JdBrNLGfScj",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in spaceflight\",\"keywords\":\"NASA mission, launch April 1 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vWIv6eAQcz8z7JdBrNLGfScj",
+   "content": "В статье «2026 in spaceflight» строк с ключевыми словами ['nasa mission', 'launch april 1 2026'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9ek1vnl0FHPBI16KktMeX6ZD",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"NASA Artemis II launch schedule April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9ek1vnl0FHPBI16KktMeX6ZD",
+   "content": "[Artemis II - NASA] Apr 1, 2026 · Four astronauts will venture around the Moon on Artemis II, the first crewed mission on NASA's path to establishing a long-term presence at the Moon for science and exploration through Artemis. The 10-day flight will help confirm systems and hardware needed for early human lunar exploration missions.\n[ARTEMIS II MISSION AVAILABILITY – APRIL 2026 - NASA] ARTEMIS II MISSION AVAILABILITY – APRIL 2026 (Updated 03/12/2026, Subject to Adjustments) April 2026 ... Calendar Legend Mission Available\n[Artemis II Launch Date 2026: NASA's Historic Lunar ReturnArtemis II Mission Schedule From Launch to Splashdown as of ...NASA Artemis II Moon Mission: April 2026 Launch Guide ...Artemis II Launch Day: Countdown to Humanity's Return to the ...When will NASA’s Artemis II mission launch and who will be ...] Mar 30, 2026 · NASA has finalized the Artemis II launch date 2026 for Wednesday, April 1, marking a pivotal moment in the NASA moon mission schedule. This 10-day flight test will carry four astronauts around the Moon and back to Earth, representing the first crewed voyage beyond low Earth orbit since the Apollo era. Apr 2, 2026 · Artemis II launched on April 1, 2026, and follows a roughly 10 day lunar free-return profile. The mission spends about a day near Earth before Orion departs for a four day trip to the Moon. Return on April 10 is planned to end with Pacific splashdown, Navy recovery, and postflight checks. Mar 13, 2026 · NASA targets April 2026 for Artemis II, the first crewed Moon mission since 1972. Learn about launch dates, crew details, technical challenges, and mission signifi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5BgUeMqVJA70y4RB8tPQwBOw",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Artemis II\",\"keywords\":\"April 1 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5BgUeMqVJA70y4RB8tPQwBOw",
+   "content": "В статье «Artemis II» строк с ключевыми словами ['april 1 2026'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Artemis II",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

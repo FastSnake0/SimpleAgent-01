@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Dmytro Maslovskyi",
+ "correct": false,
+ "cost": 0.0004003500000000493,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CS2sRWpz7tZZdMUVhuMAvVP6",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CS2sRWpz7tZZdMUVhuMAvVP6",
+   "content": "[Hero of Ukraine - Wikipedia] In January 2022, captain Dmytro Kotsiubailo \"Da Vinci\" commander of the 1st Mechanized Battalion of the Armed Forces of Ukraine and member of far-right party Right Sector was awarded the title Hero of Ukraine by the president of Ukraine Volodymyr Zelenskyy.\n[Dmytro Maslovskyi - Wikipedia] Dmytro Olehovych Maslovskyi (Ukrainian: Дмитро Олегович Масловський; callsign Kobra; 7 November 1994 — 17 November 2024) was a Ukrainian serviceman, participant in the Russian-Ukrainian war. Hero of Ukraine (2025, posthumously). [1] Born on 7 November 1994 in the village of Yanyshivka in the Podilskyi Raion, Odesa Oblast. [2][3][4]\n[Yuriy Boyko Stripped of Hero of Ukraine Title: Full Story 2025] Jul 27, 2026 · Discover why Yuriy Boyko lost his Hero of Ukraine award in 2025 after years of political controversy, gas deals and pro-Russian links. Timeline, sanctions and public reaction."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OZCN16pD8FsPIqWJee6wGTCU",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Dmytro Olehovych Maslovskyi Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OZCN16pD8FsPIqWJee6wGTCU",
+   "content": "[Dmytro Maslovskyi - Wikipedia] Dmytro Olehovych Maslovskyi (Ukrainian: Дмитро Олегович Масловський; callsign Kobra; 7 November 1994 — 17 November 2024) was a Ukrainian serviceman, participant in the Russian-Ukrainian war. Hero of Ukraine (2025, posthumously). [1] Born on 7 November 1994 in the village of Yanyshivka in the Podilskyi Raion, Odesa Oblast. [2][3][4]\n[Zelenskyy honors fallen soldier Maslovskyi as Hero of UkraineHero of Ukraine Title Awarded to Soldier Dmytro Maslovskyi ...Dmytro Maslovskyi - WikiwandZelenskyy awards Hero of Ukraine title to paratrooper ...Dmytro Maslovskyi - grokipedia.comThe soldier Dmitry Maslovsky, who died in hand-to-hand combat ...] Jan 17, 2025 · In January 2025, Russian Telegram channels circulated a video of hand-to-hand combat between a Russian and a Ukrainian soldier, in which the Ukrainian soldier was killed. Military medic Vitsyk confirmed that the video featured Dmytro Maslovskyi. Jan 17, 2025 · President of Ukraine Volodymyr Zelenskyy has posthumously awarded the title of Hero of Ukraine to Senior Soldier Dmytro Maslovskyi of the 71st Separate Ranger Brigade of the Air Assault Forces, who died in hand-to-hand combat with a Russian soldier. Nov 7, 1994 · Dmytro Olehovych Maslovskyi (callsign Kobra; 7 November 1994 — 17 November 2024) was a Ukrainian serviceman, participant in the Russian-Ukrainian war. Hero of Ukraine (2025, posthumously). Jan 17, 2025 · President Volodymyr Zelenskyi has posthumously awarded t\n[Hero of Ukraine Title Awarded to Soldier Dmytro Maslovskyi ...] Jan 17, 2025 · President of Ukraine Volodymyr Zelenskyy has posthumously awarded the title of Hero of Ukraine to Senior Soldier Dmytro Maslovskyi of the 71st Separate Ranger Brigade of the Air Assault Forces, who died in hand-to-hand combat with a Russian soldier."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Dmytro Maslovskyi",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

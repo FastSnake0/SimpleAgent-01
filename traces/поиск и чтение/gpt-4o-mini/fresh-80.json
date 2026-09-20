@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: UGC Equity Regulations 2026",
+ "correct": true,
+ "cost": 0.00019020000000002923,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_POcnYuHLidfHQaernWx0oQbR",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_POcnYuHLidfHQaernWx0oQbR",
+   "content": "[Supreme Court stays 2026 UGC equity rules, calls it ‘too ...] Jan 29, 2026 · Supreme Court stays 2026 UGC Equity Regulations, citing discrimination concerns, while 2012 regulations remain in effect for now.\n[Supreme Court stays 2026 UGC equity regulations - Supreme ...] Jan 29, 2026 · On 29 January, a Division Bench of Chief Justice Surya Kant and Joymalya Bagchi stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026.\n[Supreme Court Stays UGC Equity Regulations 2026: A Major ...] Jan 29, 2026 · On January 29, 2026, the Supreme Court of India delivered a significant interim order staying the implementation of the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 — commonly known as the UGC Equity Regulations 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: UGC Equity Regulations 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

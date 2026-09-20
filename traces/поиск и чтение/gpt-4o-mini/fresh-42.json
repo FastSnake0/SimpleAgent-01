@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Narendra Modi",
+ "correct": false,
+ "cost": 0.00018449999999992084,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who inaugurated the Noida International Airport in India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NNLx3koC8PZmIITEWImEWxCl",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NNLx3koC8PZmIITEWImEWxCl",
+   "content": "[Noida International Airport - Wikipedia] The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. [1][5] Commercial operations began on 15 June 2026.\n[Noida International Airport Inauguration Today: Time, Flight ...] Mar 28, 2026 · Today, March 28, 2026, marks a historic milestone as Prime Minister Narendra Modi arrives in Gautam Buddha Nagar to formally inaugurate Phase 1 of the Noida International Airport in Jewar.\n[Noida International Airport Inauguration: PM Narendra Modi to ...] Mar 26, 2026 · According to a freeport published by ANI on March 26, 2026, Prime Minister Narendra Modi is set to inaugurate the first phase of the airport on March 28, marking a milestone not just for infrastructure, but for the future of travel in India."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Narendra Modi",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

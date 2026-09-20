@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-98",
+  "source": "fresh",
+  "question": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?",
+  "answer": "Islamabad Memorandum",
+  "evidence": "17 June – US president Donald Trump and Iranian president Masoud Pezeshkian sign the Islamabad Memorandum to end the 2026 Iran war, with Trump signing the document during dinner with President Macron at the Palace of Versailles.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, the document signed by US President Donald Trump and Iranian President Masoud Pezeshkian in June 2026 was a **Memorandum of Understanding (MOU)**.\n\nFINAL: Memorandum of Understanding",
+ "correct": false,
+ "cost": 0.006545000000000023,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What document was signed by US president Donald Trump and Iranian president Masoud Pezeshkian in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a document signed by Donald Trump and Masoud Pezeshkian in June 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018iA15DGRzxxD3KGdiUmtFT",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Donald Trump Masoud Pezeshkian document signed June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018iA15DGRzxxD3KGdiUmtFT",
+   "content": "[Trump, Iran's President sign memorandum of understanding - CNBC] Jun 17, 2026 · A screen grab shows Iran’s President Masoud Pezeshkian holding a memorandum signed with U.S. President Donald Trump, in Tehran, Iran, June 18, 2026, taken from a video.\n[Full text of Trump's framework agreement to end Iran war : NPR] Jun 18, 2026 · Here is the text of the memorandum of understanding that was signed Wednesday by President Trump and Iranian President Masoud Pezeshkian, as well as Pakistan's prime minister.\n[Iran’s Pezeshkian: US peace memorandum remains cornerstone of ...] Aug 3, 2026 · The US-Iran Memorandum of Understanding (MOU) was signed on June 17-18, 2026, by US President Donald Trump and Iranian President Masoud Pezeshkian."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, the document signed by US President Donald Trump and Iranian President Masoud Pezeshkian in June 2026 was a **Memorandum of Understanding (MOU)**.\n\nFINAL: Memorandum of Understanding",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

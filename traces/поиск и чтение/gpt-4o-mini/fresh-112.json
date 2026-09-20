@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Smile",
+ "correct": true,
+ "cost": 0.00018510000000004911,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What mission was launched by ESA and CAS on May 19, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dGZONWQUhY5TePXti53NkSM1",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ESA CAS mission May 19, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dGZONWQUhY5TePXti53NkSM1",
+   "content": "[ESA - Smile] May 19, 2026 · Smile will use four science instruments to study how Earth responds to the solar wind from the Sun. This will improve our understanding of solar storms, geomagnetic storms and the science of space weather. Smile lifts off on quest to reveal Earth’s invisible shield…\n[ESA - Smile set to launch on 19 May] Apr 23, 2026 · Smile (the Solar wind Magnetosphere Ionosphere Link Explorer) is a joint mission between the European Space Agency (ESA) and the Chinese Academy of Sciences (CAS). Smile will use four science instruments to study how Earth responds to the solar wind from the Sun.\n[Smile - ESA Science Programme] May 19, 2026 · Smile is a joint mission between ESA, which provides the payload module and the launcher, and the Chinese Academy of Sciences (CAS), which provides the platform. European and Chinese scientific institutions are collaborating on instrument development and will collaborate on data analysis."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Smile",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search result I found from May 31, 2026, regarding ASCO 2026 data on daraxonrasib for metastatic pancreatic cancer:\n\nThe search result indicates that in May 2026 (ASCO 2026 conference on May 31, 2026), the **median overall survival with standard chemotherapy for metastatic pancreatic cancer was 6.7 months**, and with the experimental drug daraxonrasib it was 13.2 months.\n\nThe standard/baseline median overall survival that was being compared against at that time was 6.7 months.\n\nFINAL: 6.7 months",
+ "correct": false,
+ "cost": 0.023081999999999825,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about median overall survival time for metastatic pancreatic cancer patients as reported in May 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015hGpVLzfYGXdoEKR3aBPKN",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"median overall survival metastatic pancreatic cancer May 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01LwABbtNbFv1gqP8C4JbSdo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"metastatic pancreatic cancer survival May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015hGpVLzfYGXdoEKR3aBPKN",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LwABbtNbFv1gqP8C4JbSdo",
+   "content": "[Pancreatic cancer] <p class=\"mw-empty-elt\"> </p> <p><b>Pancreatic cancer</b> is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas start to multiply out of control and form a mass. These cancerous cells have the ability to invade or spread to other parts of the body. A number of types of pancreatic cancer are known. </p><p>The most common type of pancreatic cancer, <b>pancreatic adenocarcinoma</b>, accounts for about 90% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type. These adenocarcinomas start within the ductal part of the pancreas that makes digestive enzymes. Several other types of cancer, which collectively represent the majority of the non-adenocarcinomas, can also arise from these cells. </p><p>About 1–2% of cases of pancreatic cancer are neuroendocrine tumors, which arise from the hormone-producing cells of the pancreas. These are generally less aggressive than pancreatic adenocarcinoma. </p><p>Signs and symptoms of the most-common form of pancreatic cancer may include yellow skin, abdominal or back pain, unexplained weight loss, light-colored stools, dark urine, and loss of appetite. Usually, no symptoms are seen in the disease's early stages, and symptoms that are specific enough to suggest pancreatic cancer typically do not develop until the disease has reached an advanced stage. By the time of diagnosis, pancreatic cancer has often spread to other parts of the body. </p><p>Pancreatic cancer rarely occurs before the age of 40, and more than half of cases of pancreatic adenocarcinoma occur in those over 70. However, early-onset pancreatic cancer (defined as pancreatic cancer diagnosed in someone &lt;50 years of age) is becoming more prevalent, disproportionally so in younger women. </p><p>Risk factors for pancreatic cancer include tobacco smoking, obesity, diabetes, and certain rare genetic conditions. About 25% of cases are linked to"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results provide general information about pancreatic cancer but not specific information about May 2026. Let me try a more specific search.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016hrRBdMD4o9cohXsgsCzzH",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Pancreatic cancer\", \"keywords\": \"median overall survival, metastatic, months, prognosis\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016hrRBdMD4o9cohXsgsCzzH",
+   "content": "The disease occurs most often in the developed world, where about 70% of the new cases in 2012 originated. Pancreatic adenocarcinoma typically has a very poor prognosis; after diagnosis, 9% survive after five years globally and 14% live for five years in the US. For cancers diagnosed early, the five-year survival rate rises to about 20%. Neuroendocrine cancers have better outcomes; at five years from diagnosis, 65% of those diagnosed are living, though survival varies considerably depending on the type of tumor.\nCystadenocarcinomas account for 1% of pancreatic cancers, and they have a better prognosis than the other exocrine types.\nPancreatoblastoma is a rare form, mostly occurring in childhood, and with a relatively good prognosis.  Other exocrine cancers include adenosquamous carcinomas, signet ring cell carcinomas, hepatoid carcinomas, colloid carcinomas, undifferentiated carcinomas, and undifferentiated carcinomas with osteoclast-like giant cells. Solid pseudopapillary tumor is a rare low-grade neoplasm that mainly affects younger women, and generally has a very good prognosis.\nThe genetic events found in ductal adenocarcinoma have been well characterized, and complete exome sequencing has been done for the common types of tumor. Four genes have each been found to be mutated in the majority of adenocarcinomas: KRAS (in 95% of cases), CDKN2A (also in 95%), TP53 (75%), and SMAD4 (55%).  The last of these is especially associated with a poor prognosis.  SWI/SNF mutations/deletions occur in about 10–15% of the adenocarcinomas.\nLocally advanced adenocarcinomas have spread into neighboring organs, which may be any of the following (in roughly decreasing order of frequency): the duodenum, stomach, transverse colon, spleen, adrenal gland, or kidney. Very often they also spread to the important blood or lymphatic vessels and nerves that run close to the pancreas, making surgery far more difficult. Typical sites for metastatic spread (stage IV disease) are the liver, peri"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm not finding specific information about May 2026 reports. Let me search for recent clinical trial data and survival statistics.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XJ5q6h4EwwzMsm9QvuyrCK",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"\\\"May 2026\\\" pancreatic cancer survival\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01GVvvwvr3uwrwsnCPR4DHDu",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"metastatic pancreatic cancer overall survival months 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XJ5q6h4EwwzMsm9QvuyrCK",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GVvvwvr3uwrwsnCPR4DHDu",
+   "content": "[Pancreatic Cancer Survival 2026: Why Rates Nearly Doubled] Jun 28, 2026 · Pancreatic cancer survival has nearly doubled to 13% in 2026 — mRNA vaccines are driving the shift. See stage survival rates, 7 missed warning signs.\n[Latest Breakthroughs on Pancreatic Cancer 2026: New ...] Sep 11, 2026 · Pancreatic cancer has long been one of the most feared diagnoses in oncology—aggressive, late-detected, and historically resistant to treatment. But 2026 marks a potential turning point. Revolution Medicines announced results Monday from a Phase 3 trial showing taking daraxonrasib by mouth daily nearly doubled survival, with patients living 13.2 months compared to 6.7 months on standard ...\n[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · In the overall study population, patients who received daraxonrasib showed a hazard for death of 0.40, with a median overall survival of 13.2 months compared to 6.7 months with chemotherapy."
+  },
+  {
+   "role": "assistant",
+   "content": "Great! I found relevant information. The search result from May 31, 2026 mentions ASCO 2026 data about daraxonrasib. Let me search for more specific details about what was reported as the standard/overall median survival for metastatic pancreatic cancer around that time.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UW8rtBrf2QHqwwRxNVTGmX",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"ASCO 2026 May pancreatic cancer median overall survival chemotherapy standard\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UW8rtBrf2QHqwwRxNVTGmX",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search result I found from May 31, 2026, regarding ASCO 2026 data on daraxonrasib for metastatic pancreatic cancer:\n\nThe search result indicates that in May 2026 (ASCO 2026 conference on May 31, 2026), the **median overall survival with standard chemotherapy for metastatic pancreatic cancer was 6.7 months**, and with the experimental drug daraxonrasib it was 13.2 months.\n\nThe standard/baseline median overall survival that was being compared against at that time was 6.7 months.\n\nFINAL: 6.7 months",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 13 July",
+ "correct": true,
+ "cost": 0.00019800000000003148,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bz5vIRU3zZnovv3BXh1X8UUU",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Munich court Iraqi couple enslaving raping Yazidi girls date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bz5vIRU3zZnovv3BXh1X8UUU",
+   "content": "[2026 Munich Yazidi genocide trial - Wikipedia] Prosecutors alleged that in 2015 Twana H.S. acquired a five-year-old Yazidi girl from a slave market in Mosul, reportedly at his wife's request, and that in 2017 the couple acquired a second Yazidi girl, then aged twelve, from a military base in al-Bukamal in Syria's Deir ez-Zor province. [1][2][8] The children were held as slaves, forced to ...\n[German court convicts Iraqi couple of enslaving Yazidi girls] Jul 13, 2026 · A court in Germany has convicted an Iraqi couple of enslaving two Yazidi girls in Iraq. The Munich Higher Regional Court also found them guilty of membership of the Islamic State...\n[Germany convicts an Iraqi couple of genocide, crimes against ...] Aug 23, 2026 · On 13 July 2026, the Munich Higher Regional Court (Oberlandesgericht) convicted an Iraqi couple, Twana H.S. and Asia R.A., of genocide, crimes against humanity, war crimes and aggravated sexual abuse of minors against two Yazidi girls, as well as membership of Islamic State (IS)."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 13 July",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

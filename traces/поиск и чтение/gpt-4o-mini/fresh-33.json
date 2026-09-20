@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-33",
+  "source": "fresh",
+  "question": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?",
+  "answer": "Marilyn Gladu",
+  "evidence": "April 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Marilyn Gladu",
+ "correct": true,
+ "cost": 0.00018630000000008362,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZwMtYBipEHDCaLwk9qB2YAwq",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"MP defected from Conservative Party to Liberal Party April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZwMtYBipEHDCaLwk9qB2YAwq",
+   "content": "[Conservative MP Marilyn Gladu latest to defect to Liberals ...] Apr 8, 2026 · MP Marilyn Gladu becomes latest Tory to join Liberals Gladu defection latest in a string of high-profile departures for Conservatives\n[5th Canadian Conservative defects to Carney's party | AP News] Ontario Member of Parliament Marilyn Gladu alluded to U.S. President Donald Trump’s threats to Canada’s sovereignty and economy for her decision to defect to the governing Liberals. Trump has talked about making Canada the 51st U.S. state and has applied punishing tariffs on certain key sectors.\n[Conservative MP Marilyn Gladu crosses floor to Liberals] Apr 8, 2026 · Ontario MP's defection brings Liberals up to 171 seats. The Liberals have picked up another Conservative floor-crosser, bringing them one seat closer to a majority government."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Marilyn Gladu",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

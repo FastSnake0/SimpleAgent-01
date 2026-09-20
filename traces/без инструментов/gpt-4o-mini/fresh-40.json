@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-40",
+  "source": "fresh",
+  "question": "Who is shot and severely injured in Moscow on February 6, 2026?",
+  "answer": "Vladimir Alekseyev",
+  "evidence": "6 February – Lieutenant General Vladimir Alekseyev, the deputy head of the GRU, is shot and severely injured by an unidentified gunman in Moscow.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: неизвестно",
+ "correct": false,
+ "cost": 3.524999999998668e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who is shot and severely injured in Moscow on February 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: неизвестно",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

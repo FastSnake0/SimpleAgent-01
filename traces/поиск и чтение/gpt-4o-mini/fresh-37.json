@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 15 June",
+ "correct": true,
+ "cost": 0.00019170000000001686,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_f26tKp50yiusxW8IciYPy3JQ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026 date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_f26tKp50yiusxW8IciYPy3JQ",
+   "content": "[Resident doctors call four-day strike] May 27, 2026 · Fresh strike dates have been announced today, with four days of industrial action planned from 7am Monday 15 June, ending at 6.59am on Friday 19 June. The RDC said ‘intransigence’ from the new health secretary left it with ‘no choice’ but to call further strike action.\n[Resident Doctors England June Strike 2026 NHS Dispute] May 28, 2026 · The upcoming walkout will run for four consecutive days, beginning at 7am on Monday 15 June 2026 and concluding at 6.59am on Friday 19 June 2026. During this period, resident doctors will not commence any shifts that start within those hours.\n[Resident doctors announce four days of strike action in ...] May 27, 2026 · The action will run from 7.00am Monday 15th June to 6.59am Friday 19th June, with more strike dates in July to be announced in the event of no further progress being made."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 15 June",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

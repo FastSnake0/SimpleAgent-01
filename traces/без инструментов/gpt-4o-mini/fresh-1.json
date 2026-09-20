@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-1",
+  "source": "fresh",
+  "question": "What date was Progress MS-33 launched to the ISS?",
+  "answer": "22 March",
+  "evidence": "On 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, and SpaceX CRS-34 on 15 May.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "February 27, 2025",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 24 December",
+ "correct": false,
+ "cost": 3.509999999995461e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What date was Progress MS-33 launched to the ISS?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 24 December",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

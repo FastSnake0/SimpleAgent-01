@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "What is the name of the NASA mission that launched on April 1, 2026?",
+  "answer": "Artemis II",
+  "evidence": "On 1 April 2026, the Orion spacecraft lifted off from NASA's Kennedy Space Center and successfully launched the Artemis II crew into orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "Artemis II",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown",
+ "correct": false,
+ "cost": 3.4949999999978054e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the NASA mission that launched on April 1, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

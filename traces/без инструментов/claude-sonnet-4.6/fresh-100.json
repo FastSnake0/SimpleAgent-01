@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check the details of the Artemis II mission and what happened on April 6, 2026.\n\nMy knowledge cutoff is early 2025, so I don't have information about events that occurred on April 6, 2026. Artemis II was planned as a crewed lunar flyby mission, but I cannot confirm what actually happened on that specific date or what distance was achieved, as this is beyond my knowledge cutoff.\n\nI cannot answer this question accurately without access to current information.\n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 0.002678999999999987,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check the details of the Artemis II mission and what happened on April 6, 2026.\n\nMy knowledge cutoff is early 2025, so I don't have information about events that occurred on April 6, 2026. Artemis II was planned as a crewed lunar flyby mission, but I cannot confirm what actually happened on that specific date or what distance was achieved, as this is beyond my knowledge cutoff.\n\nI cannot answer this question accurately without access to current information.\n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 519",
+ "correct": false,
+ "cost": 0.00018899999999999473,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vEKZUdJ38rKqDF4mpJI89bVA",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing people report\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vEKZUdJ38rKqDF4mpJI89bVA",
+   "content": "[2026 Nepal-Tibet floods - Wikipedia] On the morning of 26 August 2026, a series of flash floods and debris flows [c] destroyed the Gyirong Port on the China-Nepal border and struck dozens of settlements along a 72 km (45 mi)[14] stretch of the Trishuli River [d] in Nepal. At least 1,410 deaths and 6,145 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. [3] The flood ...\n[Nepal Floods August 2026: Ground Report | ViN Nepal] Verified ground report on the August 2026 Nepal floods: 987 dead, 3,916 missing, government sources, maps and how to support community-led recovery.\n[Search for missing after Nepal-Tibet floods kills at least 160] NUWAKOT: Rescue teams rushed Thursday to find hundreds of people missing on the Nepal-Tibet border in flash floods and landslides that killed at least 160 and swept away entire villages."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 519",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

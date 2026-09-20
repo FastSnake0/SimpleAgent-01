@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to find information about an art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026.\n\nLet me search for this information.\n\nI don't have reliable information about this specific exhibition in my training data. Let me think about what I know about Fondazione Prada Venice (Palazzo Corner della Regina) events in 2026.\n\nI'm not confident enough in my knowledge about this specific event to provide an accurate answer without searching. My training data may not include detailed programming schedules for 2026 exhibitions.\n\nI cannot verify this information with certainty, so I should be transparent that I don't have reliable data about this specific exhibition.\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.003347999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about an art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026.\n\nLet me search for this information.\n\nI don't have reliable information about this specific exhibition in my training data. Let me think about what I know about Fondazione Prada Venice (Palazzo Corner della Regina) events in 2026.\n\nI'm not confident enough in my knowledge about this specific event to provide an accurate answer without searching. My training data may not include detailed programming schedules for 2026 exhibitions.\n\nI cannot verify this information with certainty, so I should be transparent that I don't have reliable data about this specific exhibition.\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

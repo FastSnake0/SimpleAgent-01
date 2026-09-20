@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, Statistics Canada announced approximately 850 job cuts on January 13, 2026. The agency announced it was \"entering a workforce adjustment period\" with these layoffs planned over two years.\n\nFINAL: 850",
+ "correct": true,
+ "cost": 0.00641399999999992,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Statistics Canada's job cuts announcement on January 13, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LemuUcF9NdgLL3iY5tMU4T",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LemuUcF9NdgLL3iY5tMU4T",
+   "content": "[Statistics Canada is slashing hundreds of jobs, including ...] Jan 13, 2026 · About 850 jobs are being cut at Statistics Canada, including members of the executive team, as the federal agency said it’s “entering a workforce adjustment period.”\n[Statistics Canada Slashing 850 Jobs in 2026, Entering ...] Jan 14, 2026 · Statistics Canada (Stats Can) is eliminating approximately 850 jobs — claiming that it’s entering a “workforce adjustment period.” In addition to the cuts, the federal agency will be trimming its executive team by around 12%.\n[Statistics Canada Layoffs 2026: 850 Cuts, 100 Now] Jan 19, 2026 · Statistics Canada plans to eliminate 850 positions over two years, with 100 immediate layoffs in the week of January 13, 2026. This includes unionized roles and 12% of executives, as part of federal budget efficiency measures."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Statistics Canada announced approximately 850 job cuts on January 13, 2026. The agency announced it was \"entering a workforce adjustment period\" with these layoffs planned over two years.\n\nFINAL: 850",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

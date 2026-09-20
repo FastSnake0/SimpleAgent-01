@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-50",
+  "source": "fresh",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "answer": "802,500 lira",
+  "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 802,500 lira",
+ "correct": true,
+ "cost": 0.00020129999999995984,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MKRNTxJYvRxsUOaXfQEXqrNg",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Amed S.F.K. Turkish Football Federation fine January 29, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MKRNTxJYvRxsUOaXfQEXqrNg",
+   "content": "[Amed S.F.K. - Wikipedia] In January 2026, the Turkish Football Federation issued a fine of 802,500 lira ($18,500) on Amedspor and suspended its president, Nahit Eren, from football-related activities for 15 days for \"damaging the reputation of football\" by \"making ideological propaganda\", after the club uploaded a video of a woman having her hair braided amid similar ...\n[2026 in Turkey - Wikipedia] 29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır -based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern ...\n[Amedspor football club in Turkiye fined for pro-Kurdish ...] Jan 30, 2026 · Turkish Football Federation fines second-division title favourites Amedspor and suspends president for social media video. Turkiye’s main Kurdish football team has been fined for..."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 802,500 lira",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

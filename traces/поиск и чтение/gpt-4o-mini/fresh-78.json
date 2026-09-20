@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 13.2 months",
+ "correct": true,
+ "cost": 0.0006868500000000166,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZV0qHZmaOkMkuUdcaDCMtvwU",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZV0qHZmaOkMkuUdcaDCMtvwU",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · A shift in the way people think about and treat pancreatic cancer could be on the horizon based on positive results from the pivotal randomised phase 3 RASolute 302 trial comparing daraxonrasib to chemotherapy as second-line therapy for patients with metastatic pancreatic cancer.\n[RAS(ON) Inhibitor Doubles Median Overall Survival in Results ...] May 31, 2026 · RAS (ON) Inhibitor Doubles Median Overall Survival in Results of Phase 3 Trial for Patients with Metastatic Pancreatic Cancer Posted date May 31, 2026\n[Multi-Selective RAS(ON) Inhibitor Nearly Doubles Survival ...] In people who have received treatment, daraxonrasib nearly doubles survival with fewer side effects compared to chemotherapy. The research will be presented at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting, taking place May 29 to June 2 in Chicago."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kbVX4rPfhowHPXeTyw2m1ocX",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"medians in metastatic pancreatic cancer May 2026 ASCO\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kbVX4rPfhowHPXeTyw2m1ocX",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · On May 1, 2026, the FDA granted permission for Revolution Medicines to initiate an expanded access programme to daraxonrasib for patients with previously treated metastatic pancreatic cancer.\n[ASCO 2026 Cancer Breakthroughs: Pancreatic Survival Doubles ...] Jun 1, 2026 · ASCO 2026 cancer breakthroughs from Chicago include daraxonrasib nearly doubling survival in metastatic pancreatic cancer, the OPTIMA trial showing two-thirds of high-risk breast cancer patients ...\n[Pancreatic Cancer - The ASCO Post] Sep 10, 2026 · A novel KRAS G12D inhibitor produced disease control in almost 80% of patients with heavily pretreated advanced or metastatic KRAS G12D–mutated pancreatic cancer in an early-phase study reported at the 2026 ASCO Gastrointestinal Cancers Symposium."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Za9n63BtfbJmNQ4PTieHzY9Z",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"median overall survival metastatic pancreatic cancer phase 3 trial May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Za9n63BtfbJmNQ4PTieHzY9Z",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · An ongoing clinical trial, RASolute 303, is evaluating daraxonrasib with or without chemotherapy as possible first-line treatment for patients with metastatic pancreatic cancer.\n[Experimental Drug Doubles Median Survival in Patients With ...] Jun 4, 2026 · An international phase 3 clinical trial has found that an investigational oral medication (a daily pill) doubled the median overall survival for patients with previously treated metastatic pancreatic cancer, specifically pancreatic ductal carcinoma, compared to standard chemotherapy.\n[RAS(ON) Inhibitor Doubles Median Overall Survival in Results ...] May 31, 2026 · Brian Wolpin, MD, MPH, director of the Hale Family Center for Pancreatic Cancer Research will present positive results from the pivotal randomized phase 3 RASolute 302 trial comparing daraxonrasib to chemotherapy as second-line therapy for patients with metastatic pancreatic cancer."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pc5fkM3WUGDu7kFCw9RZXTvW",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ASCO 2026 daraxonrasib median overall survival pancreatic cancer\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pc5fkM3WUGDu7kFCw9RZXTvW",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · In the overall study population, patients who received daraxonrasib showed a hazard for death of 0.40, with a median overall survival of 13.2 months compared to 6.7 months with chemotherapy.\n[Multi-Selective RAS(ON) Inhibitor Nearly Doubles Survival ...] In people who have received treatment, daraxonrasib nearly doubles survival with fewer side effects compared to chemotherapy. The research will be presented at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting, taking place May 29 to June 2 in Chicago.\n[ASCO 2026 Cancer Breakthroughs: Pancreatic Survival Doubles ...] Jun 1, 2026 · Median overall survival was 13.2 months in the daraxonrasib group versus 6.7 months for those receiving investigator-choice chemotherapy — a hazard ratio of 0.40, with a p-value below 0.0001."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 13.2 months",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

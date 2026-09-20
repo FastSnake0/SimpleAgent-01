@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-104",
+  "source": "fresh",
+  "question": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?",
+  "answer": "21",
+  "evidence": "20 April – A bus falls into a gorge in Udhampur, Jammu and Kashmir, killing 21 people and injuring 45 others.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "Could you clarify which specific incident you're referring to? There have been multiple bus accidents in Udhampur. One notable accident killed 10 people, but different incidents have had different death tolls.",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, there are slightly different reports about the death toll:\n\n- One source reports **22 people were killed**\n- Other sources report **21 people were killed**\n\nThe accident occurred in April 2026 in Udhampur district when a passenger bus overturned and plunged into a gorge near Kagort village in the Ramnagar area.\n\nFINAL: 21-22 people",
+ "correct": true,
+ "cost": 0.0067230000000000345,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the bus accident in Udhampur, Jammu and Kashmir.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015W2JANuddvbsnrjU2TqNcV",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"bus accident Udhampur Jammu Kashmir killed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015W2JANuddvbsnrjU2TqNcV",
+   "content": "[Udhampur bus accident: 22 killed as bus overturns in J&K ...] Apr 20, 2026 · At least 22 people were killed, and 30 others injured after a passenger bus skidded off the road and plunged into a gorge in Jammu and Kashmir’s Udhampur district on Monday morning. The death toll is feared to rise further as many of the injured are in critical condition.\n[Jammu Bus Accident: Jammu bus accident: 21 dead, several ...] Apr 20, 2026 · JAMMU: At least 21 people were killed and 29 others injured after a passenger bus rolled down a hill in Jammu and Kashmir’s Udhampur district on Monday, officials said. The accident occurred around 10am near Kagort village in the Ramnagar area when the bus was negotiating a blind curve.\n[Udhampur bus accident | Udhampur bus accident kills 21 in ...] Apr 21, 2026 · At least 21 people were killed and 61 injured on Monday when an overcrowded bus plunged nearly 100 metres down a hillside in Jammu’s Udhampur district, crushing an autorickshaw before landing upside down on the road below."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, there are slightly different reports about the death toll:\n\n- One source reports **22 people were killed**\n- Other sources report **21 people were killed**\n\nThe accident occurred in April 2026 in Udhampur district when a passenger bus overturned and plunged into a gorge near Kagort village in the Ramnagar area.\n\nFINAL: 21-22 people",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

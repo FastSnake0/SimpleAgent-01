@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, resident doctors in England announced a four-day strike in June 2026 on **May 27, 2026** (with additional confirmation on May 28, 2026). The strike was scheduled to run from 7 am on Monday 15 June to 6:59 am on Friday 19 June.\n\nFINAL: May 27, 2026",
+ "correct": false,
+ "cost": 0.006583999999999923,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the resident doctors' strike in England in June 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GGsQJhomh5fTn2dsqm3AtW",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"resident doctors England four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GGsQJhomh5fTn2dsqm3AtW",
+   "content": "[Resident doctors call four-day strike] May 27, 2026 · Resident doctors in England have called four days of strike action next month after meetings with new health secretary James Murray. The BMA resident doctors committee said Mr Murray has ‘made it clear he will not improve the offer already rejected’.\n[Strikes: Resident doctors announce four day walkout in June] May 28, 2026 · The strike will run from 7 am on Monday 15 June to 6 59 am on Friday 19 June, and the BMA has threatened “more strike dates in July” if no further progress is made.\n[Resident doctors in England to stage four-day strike in June] May 27, 2026 · Resident doctors in England will next month stage the 16th strike in their long-running jobs and pay dispute, and have blamed the new health secretary for their decision. They will strike..."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, resident doctors in England announced a four-day strike in June 2026 on **May 27, 2026** (with additional confirmation on May 28, 2026). The strike was scheduled to run from 7 am on Monday 15 June to 6:59 am on Friday 19 June.\n\nFINAL: May 27, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

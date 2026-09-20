@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.0003701999999999872,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l6n3NUZPkKfz2WGBr0mJya48",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l6n3NUZPkKfz2WGBr0mJya48",
+   "content": "[2026 Iran war] <p class=\"PIA-flag\" style=\"display:none; visibility:hidden;\" title=\"This page is subject to the extended confirmed restriction related to the Arab-Israeli conflict.\"></p> <p class=\"mw-empty-elt\"> </p> <p>Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies. Hostilities broke out after US–Israeli airstrikes killed several Iranian officials, including Supreme Leader Ali Khamenei. The strikes were launched amid ongoing US–Iran negotiations regarding Iran's nuclear program. </p><p>The war is part of a Middle Eastern crisis sparked by the Gaza war. It follows the Twelve-Day War and was preceded by the largest US military buildup in the region since the 2003 invasion of Iraq. US justifications for initiating the war included a response to the crackdown on anti-government protests in Iran, preventing Iran from obtaining a nuclear weapon, regime change, and taking Iran's oil and gas resources. Critics have rejected these justifications, maintaining that the attack initiated a war of aggression, in violation of international law. </p><p>Following a decentralized strategy, Iranian units responded with a series of devastating missile and drone attacks against Israel and US military bases in the Middle East, US allies in the Middle East, and by blocking the Strait of Hormuz and subsequently claiming sovereignty over it in late March. Following the strikes on their territory, the United Arab Emirates, Saudi Arabia, Kuwait, and Bahrain also attacked Iran and skirmished with its Iraqi non-state allies. Two days after Khamenei's assassination, fighting resumed between Hezbollah and Israel. Israel began occupying southern Lebanon in March. An escalation of the Yemeni civil war by the Iran-backed Houthi forces in September started the Strait of Bab al-Mandab crisis. The war has resulted in thousands of civilian and military casualties. The economic impact of the war included the largest supply disruption of the global"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UmnZDQOAwrb9qMXBM7ovj043",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country severed ties with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UmnZDQOAwrb9qMXBM7ovj043",
+   "content": "[Burkina Faso–France relations] <p class=\"mw-empty-elt\"> </p> <p><b>Burkina Faso–France relations</b> refers to the diplomatic relations between Burkina Faso and France. Diplomatic relations were established on 4 August 1960. Burkina Faso was formerly part of a French colony called French Upper Volta. France has special forces stationed in Burkina Faso. Burkina Faso has an embassy in Paris, and France has an embassy in Ouagadougou. </p><p>In January 2023, Burkina Faso's military junta asked France to recall its ambassador amid a surge of anti-French sentiment as the country moved to develop closer ties to Russia. </p><p>In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing the former colonial ruler of neo-colonialism and allegedly supporting subversive activities and terrorists in the Sahel. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Colonial_period\" data-mw-wikitext=\"\">Colonial period</h3> <p>Burkina Faso has been part of the CFA franc zone since 1945, when it was still the colony of Upper Volta and part of the General Government of French West Africa of the French colonial Empire. Burkina Faso has not changed its currency since then. </p> <h3 data-mw-anchor=\"Republic_of_Upper_Volta\" data-mw-wikitext=\"\">Republic of Upper Volta</h3> <p>The Republic of Upper Volta gained independence from France in 1958. </p><p>Since its creation in 1970, Upper Volta and France have been full members of La Francophonie. Burkina Faso remains a member even after the overthrow of the Republic of Upper Volta. </p><p>In 1975, France established the Saint-Exupéry French School in Ouagadougou, first as a primary school, then as a middle school and then as a high school. </p> <h3 data-mw-anchor=\"Under_the_regime_of_Thomas_Sankara\" data-mw-wikitext=\"\">Under the regime of Thomas Sankara</h3> <p>Since 1983, relations between Thomas Sankara and France had been strained due to his anti-imperialist stance, which challenge"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

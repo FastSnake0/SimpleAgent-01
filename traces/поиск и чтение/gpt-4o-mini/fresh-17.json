@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: GISAT-1A",
+ "correct": false,
+ "cost": 0.0015700499999999895,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gHzqsNBvwRtTQKLFmXvkeGVt",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ISRO launch September 3, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gHzqsNBvwRtTQKLFmXvkeGVt",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qzuMNKxQeX0d1oCa1AMimNlg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch September 3, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qzuMNKxQeX0d1oCa1AMimNlg",
+   "content": "[List of spaceflight launches in July–September 2026] <p class=\"mw-empty-elt\"> </p> <p> This article lists orbital and suborbital launches during the third quarter of the year 2026. </p><p>For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026. </p> <h2 data-mw-anchor=\"Orbital_launches\" data-mw-wikitext=\"\">Orbital launches</h2> <h3 data-mw-anchor=\"July\" data-mw-wikitext=\"\"><span>July</span></h3> <h3 data-mw-anchor=\"August\" data-mw-wikitext=\"\"><span>August</span></h3> <h3 data-mw-anchor=\"September\" data-mw-wikitext=\"\"><span>September</span></h3> <h2 data-mw-anchor=\"Suborbital_flights\" data-mw-wikitext=\"\">Suborbital flights</h2> <h2 data-mw-anchor=\"References\" data-mw-wikitext=\"\">References</h2> <h2 data-mw-anchor=\"External_links\" data-mw-wikitext=\"\">External links</h2>"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2l7QjU1CN65U3hNsJr3BzTWN",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ISRO launch September 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2l7QjU1CN65U3hNsJr3BzTWN",
+   "content": "[List of spaceflight launches in July–September 2026 - Wikipedia] List of spaceflight launches in July–September 2026 This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight.\n[EOS-05 - Wikipedia] GISAT-1A was launched from Launchpad 2 of the Satish Dhawan Space Centre aboard the GSLV -F17 mission at 2:55 am IST on 4 September 2026. The satellite was placed at the intended Sub- Geosynchronous Transfer Orbit (Sub-GTO) about 18 minutes after lift-off.\n[Launch Missions - Indian Space Research Organisation (ISRO)] 4 days ago · Directory of past and upcoming launch missions executed by ISRO from Sriharikota."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_e0uSwkCAPrk6ToejdlYhiJxc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO GISAT-1A launch details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_e0uSwkCAPrk6ToejdlYhiJxc",
+   "content": "[List of spaceflight launches in July–September 2026] <p class=\"mw-empty-elt\"> </p> <p> This article lists orbital and suborbital launches during the third quarter of the year 2026. </p><p>For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026. </p> <h2 data-mw-anchor=\"Orbital_launches\" data-mw-wikitext=\"\">Orbital launches</h2> <h3 data-mw-anchor=\"July\" data-mw-wikitext=\"\"><span>July</span></h3> <h3 data-mw-anchor=\"August\" data-mw-wikitext=\"\"><span>August</span></h3> <h3 data-mw-anchor=\"September\" data-mw-wikitext=\"\"><span>September</span></h3> <h2 data-mw-anchor=\"Suborbital_flights\" data-mw-wikitext=\"\">Suborbital flights</h2> <h2 data-mw-anchor=\"References\" data-mw-wikitext=\"\">References</h2> <h2 data-mw-anchor=\"External_links\" data-mw-wikitext=\"\">External links</h2>"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TUqp1sLnEMieM5iHnTm84oIu",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ISRO GISAT-1A\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TUqp1sLnEMieM5iHnTm84oIu",
+   "content": "[EOS-05 - Wikipedia] GISAT-1A was launched from Launchpad 2 of the Satish Dhawan Space Centre aboard the GSLV -F17 mission at 2:55 am IST on 4 September 2026. The satellite was placed at the intended Sub- Geosynchronous Transfer Orbit (Sub-GTO) about 18 minutes after lift-off.\n[ISRO Readies GISAT-1A As Replacement Satellite After Years of ...] Feb 6, 2026 · In the intervening period, ISRO has pursued a path aimed at reinforcing reliability and credibility. The company has completed key milestones at its space research centre in Bengaluru (URSC) and prepared GISAT-1A for movement to the launch site.\n[ISRO Set to Launch GISAT-1A Geo-Imaging Satellite for Real ...] Mar 6, 2026 · India’s Indian Space Research Organisation (ISRO) is preparing to launch GISAT-1A (also designated EOS-05), a next-generation geo-imaging satellite designed to deliver near-real-time Earth observation of the Indian subcontinent from geostationary orbit."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_53cn8HggBHWmn8YZjFT7fBqt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO GISAT-1A significance\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_53cn8HggBHWmn8YZjFT7fBqt",
+   "content": "[List of Satish Dhawan Space Centre launches] <p> This page provides a list summary of the launches taken place in Satish Dhawan Space Centre. It is the main satellite launch centre for ISRO. It is located in Sriharikota, a coastal village in Tirupati district of Andhra Pradesh, 80 km (50 mi) north of Chennai. Originally called Sriharikota Range (SHAR), an acronym that ISRO has retained to the present day. The centre was renamed in 2002 after the death of ISRO's former chairman Satish Dhawan. </p> <h2 data-mw-anchor=\"Launch_statistics\" data-mw-wikitext=\"\">Launch statistics</h2> <p>As of 24 December 2025, there have been a total of 104 launches from the three main orbital pads, including 88 successful launches, 5 partial successes, and 11 failed launches. In addition to this, an indefinite number of suborbital launches has taken place from the Sounding Rocket Complex. </p> <h3 data-mw-anchor=\"By_rocket\" data-mw-wikitext=\"\">By rocket</h3> <h4 data-mw-anchor=\"Orbital_vehicles\" data-mw-wikitext=\"\">Orbital vehicles</h4> <ul><li><b>SLV</b>: <b>4</b> (2 successful, 1 partial success, 1 failure)</li> <li><b>ASLV</b>: <b>4</b> (1 successful, 1 partial success, 2 failures)</li> <li><b>PSLV</b>: <b>63</b> (59 successful, 1 partial success, 3 failures)</li> <li><b>GSLV</b>: <b>19</b> (13 successful, 2 partial success, 4 failures)</li> <li><b>LVM3</b>: <b>9</b> (9 successful, 0 partial success, 0 failures)</li> <li><b>SSLV</b>: <b>3</b> (2 successful, 0 partial success, 1 failure)</li> <li><b>Vikram-1</b>: <b>1</b> (1 successful, 0 partial success, 0 failure)</li></ul> <h4 data-mw-anchor=\"Suborbital_vehicles\" data-mw-wikitext=\"\">Suborbital vehicles</h4> <ul><li><b>RLV-TD</b>: <b>1</b> (1 successful)</li> <li><b>ATV</b>: <b>3</b> (3 successful)</li> <li><b>Vikram-S</b>: <b>1</b> (1 successful)</li> <li><b>TV-D1</b>: <b>1</b> (1 successful)</li> <li><b>Agnibaan SOrTeD</b>: <b>1</b> (1 successful)</li></ul> <h3 data-mw-anchor=\"By_launch_pad\" data-mw-wikitext=\"\">By launch pad</h3> <"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XmDFMCHMCdBrgOvZcTXNwPJ2",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"GISAT-1A\",\"keywords\":\"launch, details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XmDFMCHMCdBrgOvZcTXNwPJ2",
+   "content": "No data"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: GISAT-1A",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

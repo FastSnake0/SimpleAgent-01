@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher.\n\nFINAL: Bruno Foucher",
+ "correct": true,
+ "cost": 0.0063670000000000115,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VZC6nHQsaV4A8dtEALcSzY",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"French ambassador Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VZC6nHQsaV4A8dtEALcSzY",
+   "content": "[French ambassador in CAR faces disciplinary probe - Radar Africa] Aug 19, 2026 · France’s embassy in the Central African Republic is facing fresh controversy after the French Foreign Ministry opened disciplinary proceedings against Ambassador Bruno Foucher over his admission that he hosted dozens of young women at his private residence in Bangui.\n[Bruno Foucher: French ambassador to CAR faces disciplinary ...] Aug 13, 2026 · France has opened disciplinary proceedings against its top diplomat in the Central African Republic (CAR) over accusations of misconduct.\n[French ambassador to CAR disciplined over misconduct ...] Aug 12, 2026 · France’s foreign ministry has launched disciplinary proceedings against its ambassador to the Central African Republic, following allegations that he repeatedly brought young women to..."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher.\n\nFINAL: Bruno Foucher",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

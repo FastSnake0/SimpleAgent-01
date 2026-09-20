@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-81",
+  "source": "fresh",
+  "question": "What was the passenger traffic number for Istanbul Airport in July 2026?",
+  "answer": "8.15m",
+  "evidence": "Data from Airports Council International shows that Heathrow Airport has lost its title as Europe's busiest airport, with Istanbul Airport seeing a greater volume of passenger traffic in July. Figures show that 8.15m people passed through Istanbul, compared to 7.86 through Heathrow.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 8.15 million",
+ "correct": false,
+ "cost": 0.00034650000000002734,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What was the passenger traffic number for Istanbul Airport in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ikSC5ZRPvqFqXsiYfEkh3AE5",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Istanbul Airport passenger traffic July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ikSC5ZRPvqFqXsiYfEkh3AE5",
+   "content": "[Türkiye’s airports served nearly 139 million passengers in ...] Aug 9, 2026 · Türkiye’s airports served nearly 139 million passengers in first seven months of 2026 Domestic passenger traffic reached 10.48 million in July, while international passenger traffic stood at 16 ...\n[Istanbul Airport Statistics 2026: Passengers, Rankings ...] Jul 7, 2026 · Traffic grew by roughly five percent between 2024 and 2025, and the international share, about four passengers in five, is unusually high for a hub of this size. That international weighting is what makes Istanbul a transfer powerhouse rather than a mainly domestic airport.\n[Istanbul Airport handles 48 million passengers as Türkiye’s ...] Aug 13, 2026 · By News Centre Turkiye’s air passenger traffic continued to grow in the first seven months of 2026, with airports across the country serving nearly 138.8 million passengers, including direct transit passengers. Turkish Minister of Transport and Infrastructure Abdulkadir Uraloğlu assessed the air transport data for July 2026 released by the General Directorate of State Airports Authority ..."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n0iyGpRNY3ONmqRo3gpqD7Ru",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Istanbul Airport July 2026 passenger traffic statistics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n0iyGpRNY3ONmqRo3gpqD7Ru",
+   "content": "[Istanbul Airport Statistics 2026: Passengers, Rankings ...] Jul 7, 2026 · Official Istanbul Airport statistics for 2025-2026: about 84M passengers, 309 destinations and Europe's cargo lead - every figure sourced.\n[Istanbul airport surpasses Heathrow in passenger traffic] 3 days ago · Istanbul Airport overtook London Heathrow in July 2026, handling 8.15 million passengers versus Heathrow’s 7.9 million. The shift follows Istanbul’s rapid expansion since 2019 and Heathrow’s slight 1.5% year-over-year drop. Middle East route declines contributed to Heathrow’s slide.\n[Istanbul Airport Overtakes Heathrow As Europe's Busiest Hub ...] Aug 11, 2026 · Istanbul Airport is Europe's busiest for July 2026, 8.15 million passengers to Heathrow's 7.86 million, and it got there through years of steady growth plus a bad month for Heathrow's Middle East routes rather than one dramatic swing."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 8.15 million",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Education Minister",
+ "correct": true,
+ "cost": 0.0001908000000000465,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tXJ2vo9Mii5uTol3elScrpij",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Dharmendra Pradhan resign position July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tXJ2vo9Mii5uTol3elScrpij",
+   "content": "[Dharmendra Pradhan's resignation breaks with Modi govt's long ...] Dharmendra Pradhan's resignation is first by a cabinet-rank minister as responsibility over a governance row during Modi's tenure of 12 years as PM so far. Updated on: Jul 25, 2026, 16:25:58 IST\n[Dharmendra Pradhan Resigns as Education Minister (July 2026)] Jul 25, 2026 · Union Education Minister Dharmendra Pradhan resigned from the Union Council of Ministers on Saturday, 25 July 2026, amid ongoing nationwide protests over the NEET-UG 2026 paper leak controversy.\n[NEET 2026 Leak: Dharmendra Pradhan Resigns as Minister ...] Jul 25, 2026 · On July 25, Union Education Minister Dharmendra Pradhan resigned from the Union Council of Ministers amid nationwide protests over the NEET-UG 2026 paper leak controversy, marking the first resignation of a Minister from the Modi government in the past 12 years. Pradhan said he is disturbed to see ..."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Education Minister",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

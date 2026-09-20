@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "What is the name of the observatory that revealed over 11,000 new asteroids in April 2026?",
+  "answer": "Vera C. Rubin Observatory",
+  "evidence": "Early Data from NSF–DOE Vera C. Rubin Observatory Reveals Over 11,000 New Asteroids. 6 April 2026.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Vera C. Rubin Observatory",
+ "correct": true,
+ "cost": 0.00018419999999996772,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the observatory that revealed over 11,000 new asteroids in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MAYV8VgcXJhHwN0pOzaC9uim",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"observatory revealed new asteroids April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MAYV8VgcXJhHwN0pOzaC9uim",
+   "content": "[Vera C. Rubin Observatory] <p class=\"mw-empty-elt\"> </p> <p>The <b>Vera C. Rubin Observatory</b>, formerly the <b>Large Synoptic Survey Telescope</b> (<b>LSST</b>), is an astronomical observatory in Coquimbo Region, Chile. Its main task is to conduct an astronomical survey of the southern sky every few nights, creating a ten-year time-lapse record, termed the Legacy Survey of Space and Time (also abbreviated LSST). The observatory is located on the El Peñón peak of Cerro Pachón, a 2,682-meter-high (8,799 ft) mountain in northern Chile, alongside the existing Gemini South and Southern Astrophysical Research Telescopes. The base facility is located about 100 kilometres (62 miles) away from the observatory by road, in La Serena. </p><p>The observatory is named for Vera Rubin, an American astronomer who pioneered discoveries about galactic rotation rates. It is a joint initiative of the U.S. National Science Foundation (NSF) and the U.S. Department of Energy's (DOE) Office of Science and is operated jointly by NSF NOIRLab and SLAC National Accelerator Laboratory. </p><p>The Rubin Observatory houses the Simonyi Survey Telescope, a wide-field reflecting telescope with an 8.4-meter primary mirror. It uses a variant of three-mirror anastigmat to deliver sharp images over a 3.5-degree-diameter field of view. Images are recorded by a 3.2-gigapixel charge-coupled device imaging (CCD) camera, the largest camera yet constructed. </p><p>Rubin saw first light in June 2025 and started full survey operations in July 2026, taking an image of the night sky every 40 seconds in order to complete a full scan of the southern sky every few days for the next ten years. The observatory is expected to catalog millions of supernovae, more than five million asteroids (including ~100,000 near-Earth objects), and image approximately 17 billion stars and 20 billion galaxies. </p> <h2 data-mw-anchor=\"Name\" data-mw-wikitext=\"\">Name</h2> <p>The telescope was originally named the Large Synoptic Surve"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Vera C. Rubin Observatory",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

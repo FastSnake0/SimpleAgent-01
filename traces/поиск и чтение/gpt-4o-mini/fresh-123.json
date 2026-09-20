@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.000370949999999981,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Cpk9loA7HnPeuv7YwP7jXV7r",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Cpk9loA7HnPeuv7YwP7jXV7r",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OiDQcApmpTMkd0NZblXVC6sI",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OiDQcApmpTMkd0NZblXVC6sI",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6gMZCDfl60V8qROmU7AqCcIX",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"country ends diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6gMZCDfl60V8qROmU7AqCcIX",
+   "content": "[Burkina Faso Ends Diplomatic Relations With France] Jun 26, 2026 · Burkina Faso has officially ended diplomatic relations with France, the government announced on state television on Friday, marking another major breakdown in ties with its former colonial power.\n[African Country 'Burkina Faso' Ends Diplomatic Relations] Jun 27, 2026 · Burkina Faso’s military-led government has officially severed diplomatic relations with France, signaling a historic and dramatic rupture with its former colonial ruler as tensions between the two nations continue to deteriorate.\n[Burkina Faso Cuts Ties With France - hokanews.com] Jun 28, 2026 · Burkina Faso has officially announced the termination of diplomatic relations with France, bringing to an end one of the most significant bilateral relationships in West Africa and signaling a dramatic shift in the country's foreign policy."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

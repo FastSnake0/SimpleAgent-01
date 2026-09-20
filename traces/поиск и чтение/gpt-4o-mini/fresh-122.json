@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Angus Taylor",
+ "correct": true,
+ "cost": 0.0001814999999999456,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1gcO41ZoTzvUEDwW9zTA8iKs",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1gcO41ZoTzvUEDwW9zTA8iKs",
+   "content": "[Sussan Ley - Wikipedia] In her tenth month as leader in 2026, she was ousted by Angus Taylor in a leadership spill; she subsequently retired from politics, triggering a by-election in her seat of Farrer.\n[Sussan Ley officially resigns two weeks after being ousted as ...] Feb 27, 2026 · Two weeks after losing the Liberal leadership, Sussan Ley officially handed in her resignation letter. Take a look back at the day's coverage below.\n[Ley formally quits parliament, triggering byelection] Feb 27, 2026 · Ousted opposition leader Sussan Ley has set a test for her successor after announcing her resignation from federal parliament. Her departure as the member for Farrer will trigger a byelection in the regional NSW seat, which is expected to be a hotly contested four-way race."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Angus Taylor",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

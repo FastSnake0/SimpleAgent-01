@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?",
+  "answer": "Fontainebleau",
+  "evidence": "13 July – A major wildfire breaks out at Fontainebleau forest.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to find information about a major wildfire in a French forest in July 2026.\n\nLet me think about this. My knowledge cutoff is early 2025, so I don't have direct knowledge of events in July 2026. I cannot verify this fact without access to current information.\n\nHowever, since I cannot look this up and don't have knowledge of this specific event, I should not guess.\n\nI don't have reliable information about wildfires in France in July 2026, as this is beyond my knowledge cutoff date. I cannot provide a verified answer to this question.\n\nFINAL: Недостаточно данных",
+ "correct": false,
+ "cost": 0.003051000000000026,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about a major wildfire in a French forest in July 2026.\n\nLet me think about this. My knowledge cutoff is early 2025, so I don't have direct knowledge of events in July 2026. I cannot verify this fact without access to current information.\n\nHowever, since I cannot look this up and don't have knowledge of this specific event, I should not guess.\n\nI don't have reliable information about wildfires in France in July 2026, as this is beyond my knowledge cutoff date. I cannot provide a verified answer to this question.\n\nFINAL: Недостаточно данных",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

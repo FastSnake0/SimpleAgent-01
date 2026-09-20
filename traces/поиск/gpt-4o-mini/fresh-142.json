@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?",
+  "answer": "Diamond DA42 Twin Star",
+  "evidence": "29 April — Two people are killed and 11 others are injured when a Diamond DA42 Twin Star crashes into a hangar at Parafield Airport in South Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Hawker Hunter",
+ "correct": false,
+ "cost": 0.001969349999999981,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JuG89DQ0Bf6X6F5sKjD5UydI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Parafield Airport aircraft crash April 29\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JuG89DQ0Bf6X6F5sKjD5UydI",
+   "content": "[Parafield Airport] <p class=\"mw-empty-elt\"> </p> <p><b>Parafield Airport</b> (ICAO: <b>YPPF</b><span data-plural=\"0\"></span>) is a public training airport, located on the edge of the residential suburb of Parafield, South Australia. It is 18 km (11 mi) north of the Adelaide central business district and adjacent to the Mawson Lakes campus of Adelaide University. Owned by the Government of Australia, it is leased to Parafield Airport Limited under a lease that runs until 2097. </p><p>Parafield was Adelaide's only civil airport until Adelaide Airport was opened in February 1955 and is currently used for small aircraft, pilot training and recreational aviation. The airport is home to the University of South Australia Aviation Academy. The airport hosts a jet fighter museum and historic aircraft displays. The museum now houses an authentic flight worthy Wirraway. </p><p>There are also multiple flight training schools including Adelaide University's Aviation Academy, FTA (Flight Training Adelaide) formerly known as Australian Aviation College, Adelaide Aviation, Enzo Flying School, Aerostar Aviation, and Parafield Flying Centre. Parafield Squadron of the Australian Air League, a national uniformed cadet organisation promoting and encouraging the interest of aviation and flying training in the youth of Australia, is also located at Parafield Airport. </p><p>During the 2020 financial year, Parafield Airport was Australia's busiest airport by aircraft movements, handling 272,646 aircraft movements. As of 2025, it became Australia's 5th busiest, handling 225,142 aircraft movements. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>The first powered flight in South Australia was of a Blériot Aéronautique monoplane on March 13, 1910, south-west of Salisbury in Bolivar, South Australia, the flight was nicknamed the \"Wittber hop\". In the 1920s investigations began into construction of an airport in Adelaide. Land was initially purchased in Albert Park with t"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lg8dMAb1YxLhzMkwZ9I87FrU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Parafield Airport crash April 29 2023 aircraft type\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lg8dMAb1YxLhzMkwZ9I87FrU",
+   "content": "[Adelaide Airport] <p class=\"mw-empty-elt\"> </p> <p><b>Adelaide Airport</b> (IATA: <b>ADL</b>, ICAO: <b>YPAD</b><span data-plural=\"1\"></span>) is an international, domestic and general aviation airport serving the metropolitan area of Adelaide, South Australia, Australia. Located approximately 6 km (4 mi) west of the central business district, the airport served more than 9.1 million passengers in FY26, being Australia’s fifth-busiest airport by passenger movements. It has been operated privately by Adelaide Airport Limited under a long-term lease from the federal government since 29 May 1998. </p><p>First established in 1955, Adelaide Airport operates flights to over 30 destinations within Australia, Oceania, Asia, and North America. The airport also serves as a hub for Virgin Australia, a focus city for Qantas, and as an operating base for various airlines, including low-cost airline Jetstar. Adelaide Airport handles the fourth-largest number of domestic connections following Brisbane, Sydney and Melbourne airports. Since 2005, flights have been operated through a combined domestic and international terminal, having replaced the original separate terminals. Adelaide Airport is capable of handling large aircraft such as the Airbus A380 and Boeing 747, the latter of which was a regular at the airport in previous years. </p><p>The facility handles an average of over 250 flights daily, and spans a total area of 785 hectares (1,940 acres) of airport property. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>An early Adelaide airport was built in 1921, allowing a mail service between Adelaide and Sydney. The aerodrome was built on 24 ha (59 acres) of land in Albert Park, now part of the neighbouring suburb of Hendon, which took over from the Northfield Aerodrome. The demand on aviation soon grew substantially, with Parafield Airport being developed in 1927 to enable the first passenger airline services from Adelaide. With a further growth in aviatio"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JH6oF3MVcbEuWWbh2W15H5hk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Parafield Airport crash April 29 2023 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JH6oF3MVcbEuWWbh2W15H5hk",
+   "content": "[List of disasters in Australia by death toll] <p class=\"mw-empty-elt\"> </p><p>This is a <b>list of disasters in Australia by death toll</b>. </p> <h2 data-mw-anchor=\"100_or_more_deaths\" data-mw-wikitext=\"\">100 or more deaths</h2> <h2 data-mw-anchor=\"50_to_99_deaths\" data-mw-wikitext=\"\">50 to 99 deaths</h2> <h2 data-mw-anchor=\"20_to_49_deaths\" data-mw-wikitext=\"\">20 to 49 deaths</h2> <h2 data-mw-anchor=\"Between_10_and_20\" data-mw-wikitext=\"\">Between 10 and 20</h2> <h2 data-mw-anchor=\"Gallery\" data-mw-wikitext=\"\">Gallery</h2> <h2 data-mw-anchor=\"Significant_incidents_resulting_in_fewer_than_10_deaths\" data-mw-wikitext=\"\">Significant incidents resulting in fewer than 10 deaths</h2> <h2 data-mw-anchor=\"Significant_incidents_of_Australians_being_killed_outside_Australia\" data-mw-wikitext=\"\">Significant incidents of Australians being killed outside Australia</h2> <p>Excludes deaths attributable to war. </p> <h2 data-mw-anchor=\"See_also\" data-mw-wikitext=\"\">See also</h2> <ul><li>Lists of shipwrecks</li> <li>Timeline of major crimes in Australia</li> <li>List of mass shootings in Australia</li> <li>List of massacres of Indigenous Australians</li> <li>List of natural disasters in Australia</li> <li>List of disasters in Antarctica by death toll</li> <li>List of disasters in Canada by death toll</li> <li>List of disasters in Croatia by death toll</li> <li>List of disasters in Great Britain and Ireland by death toll</li> <li>List of disasters in New Zealand by death toll</li> <li>List of disasters in Poland by death toll</li> <li>List of disasters in Sweden by death toll</li> <li>List of disasters in the United States by death toll</li></ul> <h2 data-mw-anchor=\"Notes\" data-mw-wikitext=\"\">Notes</h2> <h2 data-mw-anchor=\"References\" data-mw-wikitext=\"\">References</h2> <h2 data-mw-anchor=\"External_links\" data-mw-wikitext=\"\">External links</h2> <ul><li>Emergency Management Australia Disasters Database</li> <li>Major bushfires in Victoria (PDF)</li> <li>The William Booth Memorial Ho"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xlePH4IGKeUj2mlKKIIf84gY",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Parafield Airport crash April 29 2023 aircraft type details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xlePH4IGKeUj2mlKKIIf84gY",
+   "content": "[List of surviving Supermarine Spitfires] <p class=\"mw-empty-elt\"> </p> <p>The Supermarine Spitfire is a British single-seat fighter aircraft formerly used by the Royal Air Force along with many other Allied countries throughout the Second World War and afterwards into the 1950s as both a front-line fighter and also in secondary roles. </p><p>Many smaller countries purchased Spitfires as the major industrial nations phased out propeller-powered aircraft in favour of new jets. When these smaller nations started to update their air forces, many of their Second World War aircraft were sold on the open market to individuals or for scrap. </p><p>Museums and private collectors began to acquire these Spitfire and Seafire aircraft, and today many survive in these collections around the world. </p><p>This article lists surviving Spitfires and Seafires, according to their geographical location and their condition. </p> <h2 data-mw-anchor=\"Surviving_aircraft\" data-mw-wikitext=\"\">Surviving aircraft</h2> <h3 data-mw-anchor=\"Australia\" data-mw-wikitext=\"\">Australia</h3> <dl><dt>Airworthy</dt></dl> <ul><li>Spitfire Mk.VIIIc <i>MV154</i> (VH-A58). It is based at Archerfield in Brisbane, Queensland. Painted in the colors of A58-484, the personal mount of Australia's highest scoring pilot Clive Caldwell. Built at Supermarine Southampton in 1944, it was delivered by famous ATA pilot Mary Wilkens to 6 Maintenance Unit before it was shipped to Australia for the RAAF as <i>A58-671</i>. It never saw service and remained in storage until 1994, when it was rebuilt to fly with the UK civil register G-BKMI and wears the markings of Spitfire Mk.VIII <i>MT928</i>, a Spitfire which served with No. 154 Squadron. It was later sold to Meier Motors in Germany and subsequently re-registered as D-FEUR. The aircraft suffered a prop strike in 2019 during the Battle of Britain Airshow at Duxford in September. The aircraft was repaired by the Aircraft Restoration Company (ARCo), re-registered as G-BKMI an"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CPd5hY9OmdE1vdt0bpFq6paV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Parafield Airport crash April 29 2023 aircraft\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CPd5hY9OmdE1vdt0bpFq6paV",
+   "content": "[Adelaide Airport] <p class=\"mw-empty-elt\"> </p> <p><b>Adelaide Airport</b> (IATA: <b>ADL</b>, ICAO: <b>YPAD</b><span data-plural=\"1\"></span>) is an international, domestic and general aviation airport serving the metropolitan area of Adelaide, South Australia, Australia. Located approximately 6 km (4 mi) west of the central business district, the airport served more than 9.1 million passengers in FY26, being Australia’s fifth-busiest airport by passenger movements. It has been operated privately by Adelaide Airport Limited under a long-term lease from the federal government since 29 May 1998. </p><p>First established in 1955, Adelaide Airport operates flights to over 30 destinations within Australia, Oceania, Asia, and North America. The airport also serves as a hub for Virgin Australia, a focus city for Qantas, and as an operating base for various airlines, including low-cost airline Jetstar. Adelaide Airport handles the fourth-largest number of domestic connections following Brisbane, Sydney and Melbourne airports. Since 2005, flights have been operated through a combined domestic and international terminal, having replaced the original separate terminals. Adelaide Airport is capable of handling large aircraft such as the Airbus A380 and Boeing 747, the latter of which was a regular at the airport in previous years. </p><p>The facility handles an average of over 250 flights daily, and spans a total area of 785 hectares (1,940 acres) of airport property. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>An early Adelaide airport was built in 1921, allowing a mail service between Adelaide and Sydney. The aerodrome was built on 24 ha (59 acres) of land in Albert Park, now part of the neighbouring suburb of Hendon, which took over from the Northfield Aerodrome. The demand on aviation soon grew substantially, with Parafield Airport being developed in 1927 to enable the first passenger airline services from Adelaide. With a further growth in aviatio"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IHTQMGWI9F7ArOLD5OHmsGIV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hawker Hunter crash Parafield Airport April 29 2023\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IHTQMGWI9F7ArOLD5OHmsGIV",
+   "content": "[List of air show accidents and incidents in the 21st century] <p class=\"mw-empty-elt\"> </p> <p>This is a year-by-year list of aviation accidents that have occurred at airshows worldwide in the 21st century. </p> <h2 data-mw-anchor=\"2026\" data-mw-wikitext=\"\">2026</h2> <ul><li>Sep 5 – Tanagra Air Base, Greece – A McDonnell Douglas F-4 Phantom 2 of the 338th Fighter-Bomber Squadron crashed into a cliff during the annual Athens Flying Week airshow while attempting a high speed low flyby over the southernmost runway. Both pilots were found deceased at the crash site.</li></ul> <ul><li>May 17 – Mountain Home Air Force Base, Idaho – Two United States Navy EA-18G jets collided in midair during an air show. All four air crew safely ejected.</li></ul> <h2 data-mw-anchor=\"2025\" data-mw-wikitext=\"\">2025</h2> <ul><li>November 21 – Dubai Air Show (Dubai, UAE) – An Indian Air Force pilot was killed when his Tejas fighter aircraft crashed during a flight demonstration.</li> <li>August 28 – Radom Airport, Warsaw, Poland – A Polish Air Force pilot, Maciej \"Slab\" Krakowian, was killed when his F-16 crashed during a rehearsal for the Radom Air Show. The show was subsequently canceled.</li> <li>April 24 – Langley Air Force Base, Virginia – Pilot Rob Holland was killed when his MXS-RH crashed while landing. Holland was scheduled to perform that weekend. The National Transportation Safety Board (NTSB) found that the accident was caused by a loose counterweight plug, which jammed the elevator and caused a loss of flight control.</li> <li>March 28 – Australian International Airshow (Avalon, Victoria, Australia) – A member of the Paul Bennet Sky Aces formation aerobatic team crashed while flying a Wolf Pitts S-1-11X. The pilot was injured and the plane was written off. The Australian Transport Safety Bureau (ATSB) found that the pilot had started a series of snap rolls too low, and had insufficient height to recover.</li> <li>March 22 – West Coast Air Show (Saldanha, South Africa) – Pilot J"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aH0MiLo9YO5EfZZp5q9gYKWY",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hawker Hunter crash Parafield Airport April 29 2023 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aH0MiLo9YO5EfZZp5q9gYKWY",
+   "content": "[List of surviving Supermarine Spitfires] <p class=\"mw-empty-elt\"> </p> <p>The Supermarine Spitfire is a British single-seat fighter aircraft formerly used by the Royal Air Force along with many other Allied countries throughout the Second World War and afterwards into the 1950s as both a front-line fighter and also in secondary roles. </p><p>Many smaller countries purchased Spitfires as the major industrial nations phased out propeller-powered aircraft in favour of new jets. When these smaller nations started to update their air forces, many of their Second World War aircraft were sold on the open market to individuals or for scrap. </p><p>Museums and private collectors began to acquire these Spitfire and Seafire aircraft, and today many survive in these collections around the world. </p><p>This article lists surviving Spitfires and Seafires, according to their geographical location and their condition. </p> <h2 data-mw-anchor=\"Surviving_aircraft\" data-mw-wikitext=\"\">Surviving aircraft</h2> <h3 data-mw-anchor=\"Australia\" data-mw-wikitext=\"\">Australia</h3> <dl><dt>Airworthy</dt></dl> <ul><li>Spitfire Mk.VIIIc <i>MV154</i> (VH-A58). It is based at Archerfield in Brisbane, Queensland. Painted in the colors of A58-484, the personal mount of Australia's highest scoring pilot Clive Caldwell. Built at Supermarine Southampton in 1944, it was delivered by famous ATA pilot Mary Wilkens to 6 Maintenance Unit before it was shipped to Australia for the RAAF as <i>A58-671</i>. It never saw service and remained in storage until 1994, when it was rebuilt to fly with the UK civil register G-BKMI and wears the markings of Spitfire Mk.VIII <i>MT928</i>, a Spitfire which served with No. 154 Squadron. It was later sold to Meier Motors in Germany and subsequently re-registered as D-FEUR. The aircraft suffered a prop strike in 2019 during the Battle of Britain Airshow at Duxford in September. The aircraft was repaired by the Aircraft Restoration Company (ARCo), re-registered as G-BKMI an"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Hawker Hunter",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

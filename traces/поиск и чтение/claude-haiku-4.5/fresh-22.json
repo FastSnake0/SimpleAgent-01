@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Clara and the Below.\" According to the search results, it was fully funded in under 15 minutes on Kickstarter.\n\nFINAL: Clara and the Below",
+ "correct": true,
+ "cost": 0.0066750000000000975,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019g76Zz1EstzH5xDy7PCvTE",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series fully funded March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019g76Zz1EstzH5xDy7PCvTE",
+   "content": "[Matt Braly - Wikipedia] Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. [29][30][31] On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.\n[Matt Braly's 'Clara and the Below' Smashes Kickstarter Re...] Mar 17, 2026 · ‘Amphibia’ creator Matt Braly’s next animated project ‘Clara and The Below’ was fully funded in under 15 minutes. The indie gothic horror pilot inspired by The Nutcracker has already surpassed $60K, blowing past its $25K goal.\n[‘Amphibia’ creator Matt Braly’s next animated project ‘Clara ...] Mar 17, 2026 · ‘Amphibia’ creator Matt Braly’s next animated project ‘Clara and The Below’ was fully funded in under 15 minutes. The indie gothic horror pilot inspired by The Nutcracker has already surpassed $60K, blowing past its $25K goal."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Clara and the Below.\" According to the search results, it was fully funded in under 15 minutes on Kickstarter.\n\nFINAL: Clara and the Below",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

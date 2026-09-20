@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: ₹25,863 crore",
+ "correct": true,
+ "cost": 0.00019890000000000185,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_f4fca5Sva4Btljj0FU6prbOm",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_f4fca5Sva4Btljj0FU6prbOm",
+   "content": "[Shivraj Singh Chouhan Reviews VB-G-RAM-G, Releases ₹25,863 ...] Jul 5, 2026 · Union Rural Development Minister Shivraj Singh Chouhan reviewed the nationwide rollout of VB-G-RAM-G and released ₹25,863 crore to States, ensuring timely wages and rural employment.\n[Centre releases ₹25,863 crore as new rural jobs scheme VB-G ...] Jul 5, 2026 · Rural development minister Shivraj Singh Chouhan said the government had resolved to implement VB-G-RAM-G across the country without disruption from 1 July 2026.\n[Shivraj Singh Chouhan Releases First Installment of ₹25,863 ...] Jul 5, 2026 · During the meeting, he released the first installment (Mother Sanction) of ₹25,863 crore to the States for implementation of the scheme. Addressing the meeting, Shri Chouhan said that the Government had resolved to implement VB-G-RAM-G across the country without any disruption from July 1, 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: ₹25,863 crore",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

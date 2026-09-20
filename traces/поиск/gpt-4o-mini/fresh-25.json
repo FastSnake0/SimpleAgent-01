@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: open war",
+ "correct": true,
+ "cost": 0.0005319000000000296,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JaQ61rVFOb0ascTZQGTRq8Yi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Afghanistan Pakistan war February 26, 2026 declaration by Pakistan government\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JaQ61rVFOb0ascTZQGTRq8Yi",
+   "content": "[2025 Afghanistan–Pakistan conflict] <p class=\"mw-empty-elt\"> </p> <p>In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. </p><p>Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. </p><p>Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani military carried out airstrikes in Paktika province after the truce expired. The Taliban accused Pakistan of targeting civilians in Paktika, while Pakista"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0gJx23zMrNeLPTYVA3siEORD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"February 26 2026 Pakistan government declaration Afghanistan war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0gJx23zMrNeLPTYVA3siEORD",
+   "content": "[War in Afghanistan (2001–2021)] <p class=\"mw-empty-elt\"> </p> <p>The <b>war in Afghanistan</b> was a prolonged armed conflict from 2001 to 2021. It began with an invasion by a United States–led coalition under the name Operation Enduring Freedom in response to the September 11 attacks (9/11) carried out by the Taliban-allied and Afghanistan-based al-Qaeda. The Taliban were expelled from major population centers by American-led forces supporting the anti-Taliban Northern Alliance, thus toppling the Taliban-ruled Islamic Emirate. In 2004, the U.S.-backed Islamic Republic was established, but by then, the Taliban, led by founder Mullah Omar, had reorganized and begun an insurgency against the Afghan government and coalition forces. The conflict ended as the 2021 Taliban offensive reestablished the Islamic Emirate. It was the longest war in United States military history, surpassing the Vietnam War by six months. </p><p>Following 9/11, masterminded by al-Qaeda leader Osama bin Laden, American president George W. Bush demanded that the Taliban immediately extradite him to the United States and close down al-Qaeda's camps in Afghanistan; the Taliban refused and demanded evidence of bin Laden's guilt before offering to hand him over to a neutral country. The US dismissed these offers and proceeded with the invasion. After expelling the Taliban and their allies, the American-led coalition remained in Afghanistan, forming the International Security Assistance Force (ISAF)—sanctioned by the United Nations—with the goal of creating a new democratic authority in the country that would prevent the Taliban from returning to power. A new Afghan Interim Administration was established, and international rebuilding efforts were launched. By 2003, the Taliban had reorganized and launched a widespread insurgency against the new Afghan government and coalition forces. Insurgents from the Taliban and other Islamist groups waged asymmetric warfare, fighting with guerrilla warfare in the "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NqdKI5oBG3MeLQjqWf4puYkc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Pakistan February 26 2026 Afghanistan war news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NqdKI5oBG3MeLQjqWf4puYkc",
+   "content": "[2026 Afghanistan–Pakistan war] <p class=\"mw-empty-elt\"> </p> <p>A war began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. Pakistan said the strikes targeted militant camps belonging to the Pakistani Taliban (TTP) and the Islamic State – Khorasan Province (ISIS–K), in retaliation for recent cross-border attacks in Pakistan, while Afghan authorities and the United Nations Assistance Mission in Afghanistan (UNAMA) have reported casualties, though with different figures. </p><p>The initial strikes escalated into a broader cross-border confrontation involving airstrikes, artillery exchanges, drone incidents, and clashes at multiple points along the Afghanistan–Pakistan border. On 26 February, Taliban forces launched retaliatory attacks on Pakistani military positions and border outposts, describing them as a calculated response. Pakistan subsequently declared an \"open war\" against Afghanistan and launched <b>Operation Ghazab lil Haq</b>, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan. </p><p>Both sides have reported widely differing casualty figures and military outcomes, with each disputing the other's claims regarding losses, damage, and responsibility for civilian casualties. Independent reporting and satellite imagery have indicated that many Pakistani strikes were directed at military-related sites. </p><p>The conflict has had significant humanitarian and political consequences. UNAMA reported civilian deaths and injuries and urged compliance with international law. Thousands of people have been displaced on both sides of the border, and reports from Afghanistan have described restrictions on media coverage, pressure on civilians to participate in anti-Pakistan activities, and efforts to mobilize additional fighters. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The conflict occurred against "
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: open war",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

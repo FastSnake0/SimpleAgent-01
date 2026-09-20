@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-44",
+  "source": "fresh",
+  "question": "What is the name of the super-Earth with a confirmed atmosphere reported on July 16, 2026?",
+  "answer": "LHS 1140 b",
+  "evidence": "16 July – Astronomers report the first observationally confirmed atmosphere around a rocky exoplanet within its star's habitable zone, after detecting helium escaping from the upper atmosphere of LHS 1140 b, a super-Earth approximately 49 light-years from Earth.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: LHS 1140 b",
+ "correct": true,
+ "cost": 0.0008422500000000444,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the super-Earth with a confirmed atmosphere reported on July 16, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1honUKGng9xzcR1uckc6IIan",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"super-Earth confirmed atmosphere July 16 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1honUKGng9xzcR1uckc6IIan",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_o3TpiTNSuK8vuzUPmDe1Sl0s",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"super-Earth with confirmed atmosphere July 16 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_o3TpiTNSuK8vuzUPmDe1Sl0s",
+   "content": "[2026 in science] <p class=\"mw-empty-elt\"> </p> <p> The following scientific events occurred, or are scheduled to occur in <b>2026</b>. </p> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>1 January <ul><li>Researchers operating China's Experimental Advanced Superconducting Tokamak (EAST) report the first experimental verification of a theorised density-free plasma operating regime, achieving stable electron densities approximately 1.3–1.65 times the Greenwald limit.</li> <li>Researchers at the Korea Advanced Institute of Science and Technology report a photo-Hall (Hall effect)–based method for detecting semiconductor electronic trap states with approximately 1,000-fold greater sensitivity than existing techniques.</li></ul></li> <li>2 January – Researchers at the Vienna University of Technology and the Okinawa Institute of Science and Technology demonstrate self-sustained superradiant microwave emission, produced by interacting spins in diamond, offering potential applications in quantum communication and sensing.</li> <li>5 January – NASA announces that it has awarded contracts to seven companies to study technologies for the Habitable Worlds Observatory, a next-generation telescope that could launch in the 2040s.</li> <li>7 January – Astronomers using data from the Vera C. Rubin Observatory report that <span>2025 MN<sub>45</sub></span> has the fastest spin of any known asteroid larger than 0.5 km (0.31 mi) in diameter, completing one rotation every 1.88 minutes.</li> <li>13 January <ul><li>The European Copernicus Climate Change Service reports that 2025 was the world's third hottest year on record (2024 was the hottest year and 2023 the second hottest). In Antarctica, the average annual temperature was the warmest since measurements began and in the Arctic, it was the second highest.</li> <li>Paleoanthropologists publish a complete analysis of KNM-ER 64061, the most complete known s"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Sn6ycaJDfom6md9pc00R9tFO",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"super-Earth confirmed atmosphere July 2026 report\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Sn6ycaJDfom6md9pc00R9tFO",
+   "content": "[Astronomers find the first atmosphere on a rocky world in the ...] Jul 21, 2026 · Astronomers have found the first confirmed atmosphere around a rocky planet in another star’s habitable zone. The planet, LHS 1140 b, revealed its atmosphere through helium slowly leaking...\n[In a first, ‘super-Earth’ rocky exoplanet may have an ...] Jul 31, 2026 · Scientists say they have detected promising signs that a planet orbiting a star 49 light-years from Earth could have an atmosphere, making it potentially suitable for life. Called LHS 1140b, the...\n[Astronomers Find an Atmosphere on a Nearby Earthlike Planet] Jul 16, 2026 · It should be rocky, be at the right temperature for liquid water to exist and have an atmosphere. On Thursday, a team of astronomers announced that it had identified a world with all three traits."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WKbefZTzcEoI4Zho2YRaCPB5",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"LHS 1140 b atmosphere confirmed July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WKbefZTzcEoI4Zho2YRaCPB5",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Flj5X3TJdA1u98LOEkNJdddL",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"LHS 1140 b\",\"keywords\":\"atmosphere, confirmed, July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Flj5X3TJdA1u98LOEkNJdddL",
+   "content": "LHS 1140 b is an exoplanet orbiting within the conservative habitable zone of the red dwarf star LHS 1140. Discovered in 2017 by the MEarth Project, LHS 1140 b is about 5.6 times the mass of Earth and about 70% larger in radius, putting it within the super-Earth category of planets. It was initially thought to be a dense rocky planet, but refined measurements of its mass and radius have found a lower density than previously estimated, indicating that it is likely an ocean planet with 9-19% of its mass composed of water. LHS 1140 b orbits entirely within the star's habitable zone and gets 43% the incident flux of Earth. The planet is 49 light-years away and transits its star, making it an excellent candidate for atmospheric studies with ground-based and/or space telescopes.  Near-infrared ground-based spectroscopic observations have suggested the presence of an atmosphere containing helium. If this is true, this would be the first detection of a rocky exoplanet atmosphere in the habitable zone. However, observations with JWST have not detected any atmospheric helium.\nThe orbit of LHS 1140 b takes 24.737 days to complete, much quicker than Earth's year of 365 days. Its orbital radius is at 0.0946 AU, or 9.46% the distance between Earth and the Sun. While this is quite close, the star LHS 1140 is so dim that the planet only gets 0.43 times the incident flux of Earth at this distance. Assuming an albedo of 0, LHS 1140 b has an equilibrium temperature of 230 K (−43 °C; −46 °F), compared to Earth's at 255 K (−18 °C; −1 °F). If LHS 1140 b has an albedo similar to that of Earth, the equilibrium temperature would be even lower, at 201 K (−72 °C; −98 °F). However, with a greenhouse effect at least as strong as Earth's LHS 1140 b would have a surface temperature greater than 266 K (−7 °C; 19 °F) for an albedo of 0. Due to the high mass of the planet, it likely has a thicker atmosphere with a more powerful greenhouse effect. Like many potentially habitable planets around red dw"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: LHS 1140 b",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

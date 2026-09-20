@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-106",
+  "source": "fresh",
+  "question": "What opens at São Paulo/Guarulhos International Airport in February 2026?",
+  "answer": "GRU Airport People Mover",
+  "evidence": "21 February – GRU Airport People Mover opens in São Paulo/Guarulhos International Airport.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "Terminal 4 at São Paulo/Guarulhos International Airport is scheduled to open in February 2026.",
+  "agent_ok": false
+ },
+ "answer": "FINAL: New terminal",
+ "correct": false,
+ "cost": 3.524999999998668e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What opens at São Paulo/Guarulhos International Airport in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: New terminal",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

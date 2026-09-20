@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-117",
+  "source": "fresh",
+  "question": "What line of the Nanjing Metro opens in April 2026?",
+  "answer": "Line S2",
+  "evidence": "22 April – Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "Line 11",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Линия 9",
+ "correct": false,
+ "cost": 0.002587499999999965,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What line of the Nanjing Metro opens in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cnBKhZRwlrnRpGrjbTBTJq6D",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro line opening April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cnBKhZRwlrnRpGrjbTBTJq6D",
+   "content": "[Nanjing Metro] <p>The <b>Nanjing Metro</b> is a rapid transit system serving the urban and suburban districts of Nanjing, the capital city of Jiangsu Province, China. </p><p>Proposals for a metro system serving Nanjing first began in 1984, with approval by the State Planning Commission granted in 1994. Construction began on the initial 16-station Line 1 in 1999, and opened in 2005. The system has 15 lines and 258 stations running on 625.73 km (388.81 mi) of track. It is operated and maintained by the Nanjing Metro Group Company. Future expansion plans include 30 lines set to open within the next few years, with several more awaiting approval to begin construction. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Early_proposals\" data-mw-wikitext=\"\">Early proposals</h3> <p>In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest to Southeast line. The three lines meet in the city center forming a triangle. A revision of the \"Nanjing City Master Plan\" in 1993 added another line through the urban core, and three light metro lines connecting Nanjing's suburbs in Pukou and the at time proposed new airport. In addition a suburban railway to Longtan was proposed. A 1999 report on \"Nanjing city rapid rail transit network planning\" further proposed six subway lines, two subway extensions and three light metro lines. </p><p>In 1994, the State Planning Commission approved the preparatory work for the subway only to have the entire metro project postponed in 1995 amid a national freeze on new metro projects. </p><p>Major changes were made to \"Nanjing Urban Rail Transit Network Planning\" in 2003. The ne"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XpJ7XYSQiPLMg4ueoHjODKmN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro line to open April 2026 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XpJ7XYSQiPLMg4ueoHjODKmN",
+   "content": "[Nanjing Metro] <p>The <b>Nanjing Metro</b> is a rapid transit system serving the urban and suburban districts of Nanjing, the capital city of Jiangsu Province, China. </p><p>Proposals for a metro system serving Nanjing first began in 1984, with approval by the State Planning Commission granted in 1994. Construction began on the initial 16-station Line 1 in 1999, and opened in 2005. The system has 15 lines and 258 stations running on 625.73 km (388.81 mi) of track. It is operated and maintained by the Nanjing Metro Group Company. Future expansion plans include 30 lines set to open within the next few years, with several more awaiting approval to begin construction. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Early_proposals\" data-mw-wikitext=\"\">Early proposals</h3> <p>In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest to Southeast line. The three lines meet in the city center forming a triangle. A revision of the \"Nanjing City Master Plan\" in 1993 added another line through the urban core, and three light metro lines connecting Nanjing's suburbs in Pukou and the at time proposed new airport. In addition a suburban railway to Longtan was proposed. A 1999 report on \"Nanjing city rapid rail transit network planning\" further proposed six subway lines, two subway extensions and three light metro lines. </p><p>In 1994, the State Planning Commission approved the preparatory work for the subway only to have the entire metro project postponed in 1995 amid a national freeze on new metro projects. </p><p>Major changes were made to \"Nanjing Urban Rail Transit Network Planning\" in 2003. The ne"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5CzkPiHfJANGhyplSTJUf6Vl",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro Line 9 opening date 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5CzkPiHfJANGhyplSTJUf6Vl",
+   "content": "[Shenzhen Metro] <p class=\"mw-empty-elt\"> </p> <p>The <b>Shenzhen Metro</b> (Chinese: <span lang=\"zh-CN\">深圳地铁</span>) is the rapid transit system of the city of Shenzhen in Guangdong Province, China. The newest lines and extensions which opened on 28 June 2026 put the network at 642 kilometres (399 miles) of trackage. It currently operates on 17 lines with 421 stations. Despite having only opened on 28 December 2004, the Shenzhen Metro is the 5th longest metro system in the world. By 2035, the network is planned to comprise 8 express and 24 non-express lines totaling 1,142 kilometres (710 miles) of trackage. </p> <h2 data-mw-anchor=\"Current_system\" data-mw-wikitext=\"\">Current system</h2> <p>Currently the network has 642 kilometres (399 miles) of route, operating on 17 lines with 432 stations. Line 1, Line 4 and Line 10 run to the border crossings between the Shenzhen Special Economic Zone and the Hong Kong Special Administrative Region at Luohu/Lo Wu and Futian Checkpoint/Lok Ma Chau, where riders can transfer to Hong Kong's MTR East Rail line for travel onwards to Hong Kong. </p> <p>Year-end urban-rail operating length reported for Shenzhen by CAMET, separating the metro series from the all-mode city total where both are reported. </p><p><wiki-chart lang=\"en\" class=\"mw-chart\" data-mw-chart='{\"version\":1,\"spec\":{\"series\":[{\"type\":\"line\",\"name\":\"Shenzhen all modes (km)\",\"showSymbol\":true,\"lineStyle\":{\"cap\":\"round\",\"join\":\"round\",\"width\":2},\"symbol\":\"circle\",\"symbolSize\":6,\"data\":[[2012,178.3],[2013,179],[2014,179],[2015,179],[2016,286.5],[2017,297.6],[2018,297.6],[2019,316.1],[2020,422.6],[2021,431],[2022,567.11],[2023,575.62],[2024,603.58],[2025,642.99]]},{\"type\":\"line\",\"name\":\"Shenzhen metro (km)\",\"showSymbol\":true,\"lineStyle\":{\"cap\":\"round\",\"join\":\"round\",\"width\":2},\"symbol\":\"circle\",\"symbolSize\":6,\"data\":[[2013,179],[2014,179],[2015,134],[2016,241.5],[2017,285.9],[2018,285.9],[2019,304.4],[2020,410.9],[2021,419.3],[2022,546.89],[2023,555.4],[2024,583.36],[2025,62"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zdS9TgYR54GhbWUFkID9GwND",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro new lines 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zdS9TgYR54GhbWUFkID9GwND",
+   "content": "[Nanjing Metro] <p>The <b>Nanjing Metro</b> is a rapid transit system serving the urban and suburban districts of Nanjing, the capital city of Jiangsu Province, China. </p><p>Proposals for a metro system serving Nanjing first began in 1984, with approval by the State Planning Commission granted in 1994. Construction began on the initial 16-station Line 1 in 1999, and opened in 2005. The system has 15 lines and 258 stations running on 625.73 km (388.81 mi) of track. It is operated and maintained by the Nanjing Metro Group Company. Future expansion plans include 30 lines set to open within the next few years, with several more awaiting approval to begin construction. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Early_proposals\" data-mw-wikitext=\"\">Early proposals</h3> <p>In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest to Southeast line. The three lines meet in the city center forming a triangle. A revision of the \"Nanjing City Master Plan\" in 1993 added another line through the urban core, and three light metro lines connecting Nanjing's suburbs in Pukou and the at time proposed new airport. In addition a suburban railway to Longtan was proposed. A 1999 report on \"Nanjing city rapid rail transit network planning\" further proposed six subway lines, two subway extensions and three light metro lines. </p><p>In 1994, the State Planning Commission approved the preparatory work for the subway only to have the entire metro project postponed in 1995 amid a national freeze on new metro projects. </p><p>Major changes were made to \"Nanjing Urban Rail Transit Network Planning\" in 2003. The ne"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SVM4ExdDfN8piYkkuivWgyIW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro Line 6 opening date 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SVM4ExdDfN8piYkkuivWgyIW",
+   "content": "[List of metro systems] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>This <b>list of metro systems</b> includes electrified rapid transit train systems worldwide. In some parts of the world, metro systems are referred to as <b>subways</b>, <b>undergrounds</b>, <b>tubes</b>, <b>mass rapid transit</b> (<b>MRT</b>), <b>métro</b> or <b>U-Bahn</b>. As of 16 May 2026, 214 cities in 63 countries operate 961 metro lines. </p><p>The London Underground first opened as an underground railway in 1863 and its first electrified underground line, the City and South London Railway, opened in 1890, making it the world's oldest metro system. As of 2024, the country with the most metro systems is China, with 54 in operation, including 11 of the 12 longest networks in the world and the 4 systems with the highest annual ridership numbers. </p> <h2 data-mw-anchor=\"Considerations\" data-mw-wikitext=\"\">Considerations</h2> <p>The International Association of Public Transport (<span title=\"French-language text\"><i lang=\"fr\">L'Union Internationale des Transports Publics</i></span>, or UITP) defines metro systems as urban passenger transport systems, \"operated on their own right of way and segregated from general road and pedestrian traffic\". The terms heavy rail (mainly in North America) and heavy urban rail are essentially synonymous with the term \"metro\". Heavy rail systems are also specifically defined as an \"electric railway\". </p><p>The dividing line between the metro and other modes of public transport, such as light rail and commuter rail, is not always clear. The UITP only makes distinctions between \"metros\" and \"light rail\", whereas the American Public Transportation Association (APTA) and Federal Transit Administration (FTA) distinguish all three modes. A common way to distinguish metro from light rail is by their separation from other traffic. While light rail systems may share roads with car traffic or use sections of track with level crossings across roads, metro"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_C8PvPja8VHLW89APvR6Iqumf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro expansion plans April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_C8PvPja8VHLW89APvR6Iqumf",
+   "content": "[Nanjing Metro] <p>The <b>Nanjing Metro</b> is a rapid transit system serving the urban and suburban districts of Nanjing, the capital city of Jiangsu Province, China. </p><p>Proposals for a metro system serving Nanjing first began in 1984, with approval by the State Planning Commission granted in 1994. Construction began on the initial 16-station Line 1 in 1999, and opened in 2005. The system has 15 lines and 258 stations running on 625.73 km (388.81 mi) of track. It is operated and maintained by the Nanjing Metro Group Company. Future expansion plans include 30 lines set to open within the next few years, with several more awaiting approval to begin construction. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Early_proposals\" data-mw-wikitext=\"\">Early proposals</h3> <p>In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest to Southeast line. The three lines meet in the city center forming a triangle. A revision of the \"Nanjing City Master Plan\" in 1993 added another line through the urban core, and three light metro lines connecting Nanjing's suburbs in Pukou and the at time proposed new airport. In addition a suburban railway to Longtan was proposed. A 1999 report on \"Nanjing city rapid rail transit network planning\" further proposed six subway lines, two subway extensions and three light metro lines. </p><p>In 1994, the State Planning Commission approved the preparatory work for the subway only to have the entire metro project postponed in 1995 amid a national freeze on new metro projects. </p><p>Major changes were made to \"Nanjing Urban Rail Transit Network Planning\" in 2003. The ne"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9lLJLXfObcmaiwXGJrlNb5Er",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nanjing Metro 2026 new lines update\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9lLJLXfObcmaiwXGJrlNb5Er",
+   "content": "[Nanjing Metro] <p>The <b>Nanjing Metro</b> is a rapid transit system serving the urban and suburban districts of Nanjing, the capital city of Jiangsu Province, China. </p><p>Proposals for a metro system serving Nanjing first began in 1984, with approval by the State Planning Commission granted in 1994. Construction began on the initial 16-station Line 1 in 1999, and opened in 2005. The system has 15 lines and 258 stations running on 625.73 km (388.81 mi) of track. It is operated and maintained by the Nanjing Metro Group Company. Future expansion plans include 30 lines set to open within the next few years, with several more awaiting approval to begin construction. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Early_proposals\" data-mw-wikitext=\"\">Early proposals</h3> <p>In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest to Southeast line. The three lines meet in the city center forming a triangle. A revision of the \"Nanjing City Master Plan\" in 1993 added another line through the urban core, and three light metro lines connecting Nanjing's suburbs in Pukou and the at time proposed new airport. In addition a suburban railway to Longtan was proposed. A 1999 report on \"Nanjing city rapid rail transit network planning\" further proposed six subway lines, two subway extensions and three light metro lines. </p><p>In 1994, the State Planning Commission approved the preparatory work for the subway only to have the entire metro project postponed in 1995 amid a national freeze on new metro projects. </p><p>Major changes were made to \"Nanjing Urban Rail Transit Network Planning\" in 2003. The ne"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Линия 9",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

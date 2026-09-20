@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?",
+  "answer": "Fontainebleau",
+  "evidence": "13 July – A major wildfire breaks out at Fontainebleau forest.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Fontainebleau",
+ "correct": true,
+ "cost": 0.0005584499999999881,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In which French forest did a major wildfire break out in July 2026, burning over 1,300 hectares?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fd9mzLsncYxudA1Ah0jEDJUa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"French forest wildfire July 2026 1300 hectares\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fd9mzLsncYxudA1Ah0jEDJUa",
+   "content": "[2019–20 Australian bushfire season] <p class=\"mw-empty-elt\"> </p> <p>The <b>2019–20 Australian bushfire season</b>, also known as the <b>Black Summer</b>, was one of the most intense and catastrophic fire seasons on record in Australia. Exceptionally dry conditions, a lack of soil moisture, and early fires in Central Queensland led to a premature start to the bushfire season from June 2019. Over ten thousand fires burnt, mainly in the south-east of the country, until March 2020. The most severe fires hit from December 2019 to January 2020. </p><p>The fires burnt more than 24 million hectares (59 million acres; 240,000 square kilometres; 93,000 square miles) destroyed over 3,000 buildings, and directly killed 33 people. Bushfire smoke was responsible for an additional 417 deaths. An estimated three billion terrestrial vertebrates, mostly reptiles, were killed or displaced. Some species may have been driven to extinction. In all affected states, air quality dropped to dangerous levels, and smoke moved across the Southern Ocean to impact weather conditions in other continents. Carbon emissions exceeded 700 million tonnes. </p><p>Rescue and recovery efforts were immense. States of emergency were declared across various regions of New South Wales (NSW) and the north-east to east of Victoria, which were the areas most impacted. NSW alone recorded 11,774 fires; six percent of the state burned. Methods of community damage control included total fire bans and strict evacuation orders. The Australian Defence Force was mobilised to provide manpower and logistical support, and international crews were brought in from New Zealand, Singapore, Canada and the United States. An air tanker, helicopters and fire trucks crashed in rescue efforts, resulting in the deaths of several crew members. The last major fire in Victoria was contained on 27 February 2020, and all fires in New South Wales were extinguished by 2 March. </p><p>The total economic loss was estimated being at least $10"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7fqcaZyvaEnPZzt6WjT1gczo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"France forest wildfire July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7fqcaZyvaEnPZzt6WjT1gczo",
+   "content": "[2026 France wildfires] <p class=\"mw-empty-elt\"> </p> <p>In 2026, wildfires affected France, particularly in the north and south of the country, burning 115,000 ha (280,000 acres). The wildfire season is classified as the worst in the country since 1949. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>France was affected by the 2026 European heatwaves, which contributed to a severe wildfire season. On 23 June, the European Union recorded the hottest day since measurements began in 1947, and emergency services and military forces were placed on wildfire alert. </p><p>Prime Minister Sébastien Lecornu stated that climate change had caused the wildfire season to come earlier. Several climate scientists linked the severity of the heatwaves to global heating, while UN Climate Change Executive Secretary Simon Stiell said the heatwave \"has the fingerprints of the climate crisis all over it\". </p><p>The heatwaves are thought to have been in part caused by the El Niño that developed in 2026. </p> <h2 data-mw-anchor=\"Timeline\" data-mw-wikitext=\"\">Timeline</h2> <p>On 2 July, a large wildfire in Aude and Hérault, saw 800 firefighters and 150 vehicles deployed. Three thousand people were evacuated. </p><p>On 5 July 70 residents of Bezouce were evacuated while 10,000 people were evacuated due to wildfires near the Spanish border. Over 11,000 acres was burned. </p> <p>By 13 July 23 wildfires were burning across the country, with 916 reported over the last 30 days. On 13 July, firefighters tackled a large blaze at Fontainebleau forest. Nine-hundred homes were evacuated. The fires were fuelled by strong winds. Evacuations of people were carried out. Water from the River Seine was used to help the efforts. </p><p>On 22 July, it was released that between 17 June and 2 July there were 5,764 more deaths than usual which was thought to be a result of the heatwaves. This illustrates the unprecedented level of heat which contributed to dryness. The UN released th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ahlvacRgjUY2o1FBpsofECs3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fontainebleau forest wildfire July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ahlvacRgjUY2o1FBpsofECs3",
+   "content": "[2026 Fontainebleau wildfire] <p>The <b>2026 wildfires in the Fontainebleau forest</b> were major wildfires that broke out in the Forest of Fontainebleau, beginning on 12 July 2026 and being contained on 14 July. They were the most significant fires of the season in the area, affecting the Fontainebleau and Trois-Pignons forests and several municipalities. The fires occurred in two main areas, with the second appearing on 13 July near the town of Fontainebleau. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <h3 data-mw-anchor=\"Climate_change\" data-mw-wikitext=\"\">Climate change</h3> <p>Although wildfires can have human causes (accidental or deliberate) or natural causes, climate change increases the risk of wildfires in France, particularly through the increasing frequency and intensity of heat waves and droughts, which constitute two of the three parameters of the 30-30-30 rule. The wildfire risk is expanding towards northern France as a result of warming and is likely to affect the Île-de-France region increasingly often. </p> <h3 data-mw-anchor=\"Vulnerabilities_of_the_forest_in_2026\" data-mw-wikitext=\"\">Vulnerabilities of the forest in 2026</h3> <p>The Forest of Fontainebleau has experienced a sharp increase in visitor numbers. The forest receives between 15 and 18 million visitors per year, an estimated 25% increase over a decade. Visitor numbers are concentrated in certain easily accessible or particularly well-known areas, notably the Trois-Pignons massif, climbing sites and the Vingt-Cinq-Bosses circuit. This is accompanied by regular parking congestion and an increase in outdoor activities, including climbing, hiking, running and mountain biking. Vulnerabilities linked to heat, drought and parasites are added to this human pressure. Repeated trampling accelerates soil erosion, encourages the appearance of unofficial trails and can expose tree roots. In some heavily visited areas, ground level has fallen by more than one metre in less"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Fontainebleau",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

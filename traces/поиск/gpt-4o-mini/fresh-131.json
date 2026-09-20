@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "What is the name of the NASA mission that launched on April 1, 2026?",
+  "answer": "Artemis II",
+  "evidence": "On 1 April 2026, the Orion spacecraft lifted off from NASA's Kennedy Space Center and successfully launched the Artemis II crew into orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "Artemis II",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Artemis II",
+ "correct": true,
+ "cost": 0.0011151000000000355,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the NASA mission that launched on April 1, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_C2dydrQmTuZvYdlEstr8zKvi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA mission launched April 1, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_C2dydrQmTuZvYdlEstr8zKvi",
+   "content": "[NASA] <p class=\"mw-empty-elt\"> </p> <p>The <b>National Aeronautics and Space Administration</b> (<b>NASA</b> <span></span>) is an independent agency of the U.S. federal government responsible for the United States' civil space program, as well as research in aeronautics and space. Headquartered in Washington, D.C., NASA operates ten field centers across the US and is organized into three mission directorates: Human Spaceflight, Research and Technology, and Science. Established in 1958 amid the Space Race, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the US space program a distinct civilian orientation focused on peaceful applications. Since then, it has led most American spaceflight programs, including Project Mercury, Project Gemini, the Apollo program, Skylab, the Space Shuttle, the International Space Station (ISS), and the ongoing multi-national Artemis program. </p><p>NASA maintains extensive ground and communications infrastructure, including the Deep Space Network and the Near Earth Network. Its science programs focus on Earth observation through the Earth Observing System, heliophysics research, Solar System exploration with robotic missions such as <i>New Horizons</i> and the <i>Perseverance</i> rover, and astrophysics investigations using space-based observatories including the James Webb Space Telescope and the Hubble Space Telescope. The Launch Services Program oversees operations for uncrewed launches. </p><p>The agency supports the ISS through international partnerships and highly successful commercial initiatives, such as the Commercial Crew Program and Commercial Resupply Services. NASA also leads the development of the Orion spacecraft and the Space Launch System rocket for the Artemis program. NASA collaborates globally with organizations including the European Space Agency (ESA), the Japan Aerospace Exploration Agency (JAXA), the Canadian Space Agency (CSA), and Russia's Roscosmos (for ISS operations), as well as "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8mM0TuuwGo15gkfII93lBuVV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA mission April 1, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8mM0TuuwGo15gkfII93lBuVV",
+   "content": "[NASA] <p class=\"mw-empty-elt\"> </p> <p>The <b>National Aeronautics and Space Administration</b> (<b>NASA</b> <span></span>) is an independent agency of the U.S. federal government responsible for the United States' civil space program, as well as research in aeronautics and space. Headquartered in Washington, D.C., NASA operates ten field centers across the US and is organized into three mission directorates: Human Spaceflight, Research and Technology, and Science. Established in 1958 amid the Space Race, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the US space program a distinct civilian orientation focused on peaceful applications. Since then, it has led most American spaceflight programs, including Project Mercury, Project Gemini, the Apollo program, Skylab, the Space Shuttle, the International Space Station (ISS), and the ongoing multi-national Artemis program. </p><p>NASA maintains extensive ground and communications infrastructure, including the Deep Space Network and the Near Earth Network. Its science programs focus on Earth observation through the Earth Observing System, heliophysics research, Solar System exploration with robotic missions such as <i>New Horizons</i> and the <i>Perseverance</i> rover, and astrophysics investigations using space-based observatories including the James Webb Space Telescope and the Hubble Space Telescope. The Launch Services Program oversees operations for uncrewed launches. </p><p>The agency supports the ISS through international partnerships and highly successful commercial initiatives, such as the Commercial Crew Program and Commercial Resupply Services. NASA also leads the development of the Orion spacecraft and the Space Launch System rocket for the Artemis program. NASA collaborates globally with organizations including the European Space Agency (ESA), the Japan Aerospace Exploration Agency (JAXA), the Canadian Space Agency (CSA), and Russia's Roscosmos (for ISS operations), as well as "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_P7qzy28gpa0S5eyN018ycTMU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA missions 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_P7qzy28gpa0S5eyN018ycTMU",
+   "content": "[List of NASA missions] <p class=\"mw-empty-elt\"> </p> <p>This is a <b>list of NASA missions</b>, both crewed and robotic, since the establishment of NASA in 1958. There are over 80 currently active science missions. </p> <h2 data-mw-anchor=\"X-Plane_program\" data-mw-wikitext=\"\">X-Plane program</h2> <p>Since 1945, NACA (NASA's predecessor) and, since January 26, 1958, NASA has conducted the X-Plane Program. The program was originally intended to create a family of experimental aircraft not intended for production beyond the limited number of each design built solely for flight research. The first X-Plane, the Bell X-1, was the first rocket-powered airplane to break the sound barrier on October 14, 1947. X-Planes have set numerous milestones since then, both crewed and unpiloted. </p> <h2 data-mw-anchor=\"Human_spaceflight\" data-mw-wikitext=\"\">Human spaceflight</h2> <p>NASA has successfully launched over 200 crewed flights. Three have ended in failure, causing the death of the entire crew: Apollo 1 (which never launched) in 1967 lost three crew members, STS-51-L (the <i>Challenger</i> disaster) in 1986, and STS-107 (the <i>Columbia</i> disaster) in 2003. </p> <p><b>Notes:</b> </p> <h3 data-mw-anchor=\"Early_Obama_administration_review\" data-mw-wikitext=\"\">Early Obama administration review</h3> <p>In May 2009, the Obama administration announced the launch of an independent review of planned U.S. human space flight activities with the goal of ensuring that the nation is on a vigorous and sustainable path to achieving its boldest aspirations in space. The review was conducted by a panel of experts led by Norman Augustine, the former CEO of Lockheed Martin, who served on the President's Council of Advisers on Science and Technology under both Democrat and Republican presidents. </p><p>The \"Review of United States Human Space Flight Plans\" was to examine ongoing and planned National Aeronautics and Space Administration (NASA) development activities, as well as potential alter"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uxafwBvHuywxiXxzlJdOxrPp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA mission schedule April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uxafwBvHuywxiXxzlJdOxrPp",
+   "content": "[NASA] <p class=\"mw-empty-elt\"> </p> <p>The <b>National Aeronautics and Space Administration</b> (<b>NASA</b> <span></span>) is an independent agency of the U.S. federal government responsible for the United States' civil space program, as well as research in aeronautics and space. Headquartered in Washington, D.C., NASA operates ten field centers across the US and is organized into three mission directorates: Human Spaceflight, Research and Technology, and Science. Established in 1958 amid the Space Race, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the US space program a distinct civilian orientation focused on peaceful applications. Since then, it has led most American spaceflight programs, including Project Mercury, Project Gemini, the Apollo program, Skylab, the Space Shuttle, the International Space Station (ISS), and the ongoing multi-national Artemis program. </p><p>NASA maintains extensive ground and communications infrastructure, including the Deep Space Network and the Near Earth Network. Its science programs focus on Earth observation through the Earth Observing System, heliophysics research, Solar System exploration with robotic missions such as <i>New Horizons</i> and the <i>Perseverance</i> rover, and astrophysics investigations using space-based observatories including the James Webb Space Telescope and the Hubble Space Telescope. The Launch Services Program oversees operations for uncrewed launches. </p><p>The agency supports the ISS through international partnerships and highly successful commercial initiatives, such as the Commercial Crew Program and Commercial Resupply Services. NASA also leads the development of the Orion spacecraft and the Space Launch System rocket for the Artemis program. NASA collaborates globally with organizations including the European Space Agency (ESA), the Japan Aerospace Exploration Agency (JAXA), the Canadian Space Agency (CSA), and Russia's Roscosmos (for ISS operations), as well as "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jQKaITxpM7KnzPqiVZ7Mtbgf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"NASA Artemis mission April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jQKaITxpM7KnzPqiVZ7Mtbgf",
+   "content": "[Artemis II] <p class=\"mw-empty-elt\"> </p> <p><b>Artemis II</b> (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Orion spacecraft, named <i><b>Integrity</b></i> by the four-person crew. </p><p>The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated <b>Exploration Mission-2</b> (<b>EM-2</b>) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. </p><p>Among the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km). After its launch, Artemis II gained widespread global attention for its achievements and inclusive crew, giving rise to the term \"Moon joy\". </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Mission_planning_and_launch_date_selection_(2017–2021)\" data-mw-fallback-anchor=\"Mission_planning_and_laun"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Artemis II",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

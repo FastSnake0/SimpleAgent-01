@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I'll search for information about a shark attack fatality in June 2026.\n\nI don't have real-time search capabilities, and my knowledge cutoff means I may not have details about events in June 2026. Let me reason about what I might know.\n\nMy knowledge extends through early 2025, so I cannot confirm specific events from June 2026.\n\nI'm unable to verify this event with the information available to me. I cannot provide a reliable answer about a specific shark attack fatality in June 2026.\n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 0.002703000000000011,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a shark attack fatality in June 2026.\n\nI don't have real-time search capabilities, and my knowledge cutoff means I may not have details about events in June 2026. Let me reason about what I might know.\n\nMy knowledge extends through early 2025, so I cannot confirm specific events from June 2026.\n\nI'm unable to verify this event with the information available to me. I cannot provide a reliable answer about a specific shark attack fatality in June 2026.\n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

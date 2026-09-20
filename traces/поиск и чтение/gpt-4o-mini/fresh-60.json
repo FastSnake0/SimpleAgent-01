@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 209",
+ "correct": true,
+ "cost": 0.00018614999999999604,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of people arrested in Ankara in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ksnqAoNvv3d4VpuBTuNrZlQJ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"number of people arrested in Ankara June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ksnqAoNvv3d4VpuBTuNrZlQJ",
+   "content": "[Turkey: Over 200 Arrested in Ankara Ahead of NATO Summit] Jun 23, 2026 · More than 200 people suspected of links to the Islamic State (IS) and far-left militant groups were arrested today (June 23, 2026) in Ankara — two weeks before the NATO summit scheduled to take place in the Turkish capital.\n[Ankara NATO Summit: Hundreds Arrested - athens-times.com] Jun 23, 2026 · Turkish police in Ankara have carried out hundreds of arrests in the lead-up to next month’s NATO summit. Authorities detained 209 individuals suspected of links to extremist groups, including the Islamic State (ISIS).\n[Number of arrests rises to 178 in Ankara ahead of NATO summit] Jun 29, 2026 · Following courthouse proceedings on Jun 26, courts ordered the formal arrest of 178 individuals, while 34 were placed under house arrest and six were released. Those remanded in custody include academics, journalists, and environmental activists and students."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 209",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

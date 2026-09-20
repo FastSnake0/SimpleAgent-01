@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Where will the 2026 FEI World Championships be held from 11–23 August?",
+  "answer": "Aachen",
+  "evidence": "11–23 August – 2026 FEI World Championships in Aachen.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Aachen",
+ "correct": true,
+ "cost": 0.0003841499999999165,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Where will the 2026 FEI World Championships be held from 11–23 August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_diZuafanzM40V1JPxgW77qE8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FEI World Championships location August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_diZuafanzM40V1JPxgW77qE8",
+   "content": "[2026 China Masters] <p>The <b>2026 China Masters</b> (officially known as the <b>Li-Ning China Masters 2026</b> for sponsorship reasons) was a badminton tournament that took place at Shenzhen Arena in Shenzhen, China, from 1 to 6 September 2026, and featured a total prize pool of $1,250,000. </p> <h2 data-mw-anchor=\"Tournament\" data-mw-wikitext=\"\">Tournament</h2> <p>The 2026 China Masters was the twenty-third tournament of the 2026 BWF World Tour and is also part of the China Masters championships, which have been held since 2005. This tournament is organized by the Chinese Badminton Association and is sanctioned by the BWF. </p> <h3 data-mw-anchor=\"Venue\" data-mw-wikitext=\"\">Venue</h3> <p>This international tournament was held at Shenzhen Arena in Shenzhen, China. </p> <h3 data-mw-anchor=\"Point_distribution\" data-mw-wikitext=\"\">Point distribution</h3> <p>Below is the point distribution table for each phase of the tournament based on the BWF points system for the BWF World Tour Super 750 event. </p> <h3 data-mw-anchor=\"Prize_money\" data-mw-wikitext=\"\">Prize money</h3> <p>The total prize money for this tournament was US$1,250,000. Distribution of prize money was in accordance with BWF regulations. </p> <h2 data-mw-anchor=\"Men's_singles\" data-mw-fallback-anchor=\"Men.27s_singles\" data-mw-wikitext=\"\">Men's singles</h2> <h3 data-mw-anchor=\"Seeds\" data-mw-wikitext=\"\">Seeds</h3> <h3 data-mw-anchor=\"Finals\" data-mw-wikitext=\"\">Finals</h3> <h3 data-mw-anchor=\"Top_half\" data-mw-wikitext=\"\">Top half</h3> <h4 data-mw-anchor=\"Section_1\" data-mw-wikitext=\"\">Section 1</h4> <h4 data-mw-anchor=\"Section_2\" data-mw-wikitext=\"\">Section 2</h4> <h3 data-mw-anchor=\"Bottom_half\" data-mw-wikitext=\"\">Bottom half</h3> <h4 data-mw-anchor=\"Section_3\" data-mw-wikitext=\"\">Section 3</h4> <h4 data-mw-anchor=\"Section_4\" data-mw-wikitext=\"\">Section 4</h4> <h2 data-mw-anchor=\"Women's_singles\" data-mw-fallback-anchor=\"Women.27s_singles\" data-mw-wikitext=\"\">Women's singles</h2> <h3 data-mw-anchor=\"Seed"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vUuUewTSmWsB1nUYBJn9pH1r",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 FEI World Championships location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vUuUewTSmWsB1nUYBJn9pH1r",
+   "content": "[2026 FEI World Championships - Wikipedia] During the Board meeting in November 2023 during the FEI General Assembly in Mexico City, the FEI allocated the 2026 FEI World Championships for the six disciplines to Aachen, who hosted the same FEI World Equestrian Games in 2006 as well.\n[Home - FEI World Championships Aachen 2026] Aug 11, 2026 · Participants from all over the world return to Aachen – under the motto \"Welcome Home,\" the Main Stadium becomes a venue for international encounters and great emotions. Spectacular equestrian displays with over 250 horses, along with captivating dance and musical performances, will make the Opening Ceremony an unforgettable experience.\n[2026 FEI World Championships | US Equestrian - usef.org] The 2026 FEI World Championships will be hosted in Aachen, Germany from August 11-23, 2026, and feature the six international disciplines of Eventing, Show Jumping, Dressage, Driving, Vaulting, and Para Dressage."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Aachen",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

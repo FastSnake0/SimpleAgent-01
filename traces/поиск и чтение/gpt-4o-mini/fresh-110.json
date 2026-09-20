@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Clay Fuller",
+ "correct": true,
+ "cost": 0.0006481499999999585,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VPPzSYgMEZXPf9oQYphV16v8",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VPPzSYgMEZXPf9oQYphV16v8",
+   "content": "[Georgia House Special Election 2026 Live Results - NBC News] Mar 11, 2026 · See live results from the 2026 Georgia House Special election as votes are counted for Republicans and Democrats.\n[Georgia House Special Runoff Election 2026 Live Results] Apr 7, 2026 · See live results from the 2026 Georgia House Special Runoff election as votes are counted.\n[Election Results - results.sos.ga.gov] Election Results"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5FESCKloJ4iMTB27UNp9mBoP",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5FESCKloJ4iMTB27UNp9mBoP",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4h2IYt8w0ekLR3g17kMFzgGH",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4h2IYt8w0ekLR3g17kMFzgGH",
+   "content": "[2026 Georgia's 14th congressional district special election2026 Georgia's 13th congressional district special electionGeorgia 14th District special election | CNN PoliticsGeorgia 14th Congressional District Special 2026: Live ...Georgia's 14th Congressional District special election, 2026] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned. The special election was triggered following the death of incumbent Democratic representative David Scott on April 22, 2026. As no candidate received a majority of the vote, a runoff was held on August 25 between Democrats Marcye Scott and Everton Blair. Republican Clay Fuller, a former district attorney, defeated Democrat Shawn Harris, a retired Army brigadier general, in a special election to replace former GOP Rep. Marjorie Taylor Greene. Mar 10, 2026 · Get live results and maps from the 2026 Georgia special election. Clayton Fuller (R) defeated \n[2026 Georgia's 13th congressional district special election] The special election was triggered following the death of incumbent Democratic representative David Scott on April 22, 2026. As no candidate received a majority of the vote, a runoff was held on August 25 between Democrats Marcye Scott and Everton Blair.\n[Georgia House Special Election 2026 Live Results - NBC News] Mar 10, 2026 · See live results from the 2026 Georgia House Special election as votes are counted for Republicans and Democrats."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fC2dgz9QiKisGo4liDPv9OA2",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Clay Fuller special election Georgia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fC2dgz9QiKisGo4liDPv9OA2",
+   "content": "[2026 Georgia's 14th congressional district special electionRepublican Clay Fuller wins special election to replace ...Republican Clay Fuller wins Georgia special election to ... - CNNGeorgia 14th Congressional District Special Runoff Election ...Georgia Special Election Results 2026: Republican Clay Fuller ...] As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, [2] with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027. Apr 8, 2026 · Republican Clay Fuller defeated Democrat Shawn Harris in a special runoff election in the state’s 14th Congressional District, giving the GOP another vote for their narrow House majority.... Apr 7, 2026 · Republican Clay Fuller poses for a photo during an election night watch party in Rome, Georgia, on March 10, 2026. Apr 8, 2026 · Get live results and maps from the 2026 Georgia 14th Congressional District special runoff election. Apr 8, 2026 · Republican Clay Fuller wins Georgia special election, replacing Mar\n[Georgia's 14th Congressional District special election, 2026] Clayton Fuller (R) defeated Shawn Harris (D) in a special runoff election to represent Georgia's 14th Congressional District on April 7, 2026. Neither received a majority of votes in a special election on March 10, 2026, with Harris receiving 37.3% of the vote and Fuller 34.9%.\n[Republican Clay Fuller wins Georgia special election. Results] Apr 7, 2026 · The traditionally deep-red district backed Republican Clay Fuller, who was buoyed by an endorsement from President Donald Trump."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Clay Fuller",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

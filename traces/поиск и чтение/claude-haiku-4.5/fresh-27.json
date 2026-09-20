@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "answer": "Markus Hinterhäuser",
+  "evidence": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "Teodor Currentzis",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. According to the search results, on March 26, 2026, the Salzburg Festival's board of directors announced that Markus Hinterhäuser, the artistic director of the festival, was placed on leave until September 30, 2026.\n\nFINAL: Markus Hinterhäuser",
+ "correct": true,
+ "cost": 0.007400000000000073,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this incident involving the Salzburg Festival in March 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018Ua2cH4MbXKpoe6cjC3shK",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Salzburg Festival March 26 2026 leave September 30\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01BqQtJNZyUHVjSPgGHS2hHB",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Salzburg Festival conductor placed on leave March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018Ua2cH4MbXKpoe6cjC3shK",
+   "content": "[Salzburger Festspiele – Wikipedia] Im März 2026 trennten sich die Festspiele von Hinterhäuser, er wurde zum bis Vertragsende am 30. September 2026 beurlaubt. [3] Interimistisch folgte ihm Karin Bergmann bis Herbst 2027 nach. [4] Präsidentin ist seit 1. Jänner 2022 bis Ende 2026 Kristina Hammer. [5]\n[Salzburg Festival 2026 • Tickets • Programme] Applications for the Young Singers Project 2027 are now open. Young singers up to the age of 30 can apply until 1 5 October 2026. Salzburg Festival Whitsun 2026 • Subscription online! • Order Now!\n[Salzburg Festival 2026 - ProgramSalzburg Festival 2026: Full Program Guide - Be Special ToursThe concert programme 2026 • Salzburg FestivalSalzburg Festival : Event Calendar : salzburg.infoSalzburg Festival SocietySalzburger Festspiele – Wikipedia] Aug 30, 2026 · The 2026 Salzburg Festival will take place from July 17 to August 30 and offer a comprehensive program of opera, theater, and concert performances. The diverse program invites audiences to question themselves and contemporary society. Dec 10, 2025 · Plan your trip with this Salzburg Festival 2026 program guide. Explore opera, concerts, venues, dates, and travel tips to make the most of your festival visit. The Vienna Philharmonic’s 2026 Festival summer ends under the baton of Andris Nelsons. In addition, solo recitals, lied recitals, “ Kleine Nachtmusiken ” and selected chamber music performances by the leading artists of our times round out this year’s concert programme. Whether opera, drama or concert - here you will find all the current dates and programs of the Salzburg "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BqQtJNZyUHVjSPgGHS2hHB",
+   "content": "[2026 in classical music - Wikipedia] 26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.\n[The 2026 Salzburg Festival Navigates Uncertain Times Without ...] Aug 15, 2026 · The renowned classical music festival is at a turning point after ousting its artistic director as it prepares for a disruptive $600 million renovation project.\n[The Salzburg Festival Navigates Uncertain Times Without a ...] Aug 15, 2026 · The festival, with its $89 million annual budget, sold 230,000 tickets this season, with visitors from 88 countries. ... Salzburg draws a largely well-to-do crowd, paying $558 for best-in-the-house seats."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. According to the search results, on March 26, 2026, the Salzburg Festival's board of directors announced that Markus Hinterhäuser, the artistic director of the festival, was placed on leave until September 30, 2026.\n\nFINAL: Markus Hinterhäuser",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

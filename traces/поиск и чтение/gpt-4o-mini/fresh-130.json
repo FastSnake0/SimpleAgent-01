@@ -1,0 +1,156 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "On what date did ISRO launch EOS-05, India’s first geostationary Earth observation satellite?",
+  "answer": "3 September",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 4 September",
+ "correct": false,
+ "cost": 0.001015500000000058,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "On what date did ISRO launch EOS-05, India’s first geostationary Earth observation satellite?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_t3QL7B3tPLaGwkhzlQbGrCG8",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ISRO EOS-05 launch date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_t3QL7B3tPLaGwkhzlQbGrCG8",
+   "content": "[EOS-05 - Wikipedia] On 7 September, the third and final orbit raising manoeuvre to reach its intended geosynchronous orbit with altitudes ranging between 34,903 km × 35,884 km. The LAM engine fired for 1247 seconds until 8:47 pm IST.\n[ISRO Successfully Launches EOS-05 Earth Observation Satellite] Sep 4, 2026 · The Indian Space Research Organisation (ISRO) has launched the GSLV-F17/EOS-05 mission on September 4, 2026, at 2:55 AM IST. The mission lift off from the Second Launch Pad (SLP) at Satish Dhawan Space Centre (SDSC-SHAR), Sriharikota.\n[EOS-05 (GISAT-1A) | GSLV Mk II | Next Spaceflight] Sep 3, 2026 · A GSLV Mk II rocket launched with EOS-05 (GISAT-1A) from Second Launch Pad at Satish Dhawan Space Centre, India on Thursday September Th, 2026 at 21:25 UTC."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EwwKLVzxOg8ldVaE0OJAEsto",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"EOS-05\",\"keywords\":\"launch date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EwwKLVzxOg8ldVaE0OJAEsto",
+   "content": "В статье «EOS-05» строк с ключевыми словами ['launch date'] не найдено"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jEkBtuJ5JeDQfKTD0BYqmp8J",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"ISRO launch EOS-05 date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jEkBtuJ5JeDQfKTD0BYqmp8J",
+   "content": "[EOS-05 - Wikipedia] On 7 September, the third and final orbit raising manoeuvre to reach its intended geosynchronous orbit with altitudes ranging between 34,903 km × 35,884 km. The LAM engine fired for 1247 seconds until 8:47 pm IST.\n[EOS-05 (GISAT-1A) | GSLV Mk II | Next Spaceflight] Sep 3, 2026 · A GSLV Mk II rocket launched with EOS-05 (GISAT-1A) from Second Launch Pad at Satish Dhawan Space Centre, India on Thursday September Th, 2026 at 21:25 UTC.\n[Watch Launch launch of GSLV-F17/EOS-05 Mission on Friday, Sep ...] Sep 9, 2026 · Watch Launch launch of GSLV-F17/EOS-05 Mission on Friday, Sep 04, 2026 from 02:55 AM ,IST GSLV-F17/EOS-05 Mission - Launch Streaming Home / GSLV-F17/EOS-05 Mission - Launch Streaming"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_duTD9KdQ9KOa9frBsuweIWv9",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"ISRO EOS-05 satellite launch date\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_xQWbdHJiV71JJm2kA8IeWuKd",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"when was EOS-05 launched\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_duTD9KdQ9KOa9frBsuweIWv9",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xQWbdHJiV71JJm2kA8IeWuKd",
+   "content": "[EOS-05 - Wikipedia] GISAT-1A was launched from Launchpad 2 of the Satish Dhawan Space Centre aboard the GSLV -F17 mission at 2:55 am IST on 4 September 2026. The satellite was placed at the intended Sub- Geosynchronous Transfer Orbit (Sub-GTO) about 18 minutes after lift-off.\n[ISRO launches EOS-05 satellite: How is it different ... - WION] Sep 12, 2026 · Indian Space Research Organisation (ISRO) launched the EOS-05 satellite from the Satish Dhawan Space Centre at 2:55 am on Friday. It is an Earth Observation Satellite launched aboard the GSLV-F17 rocket. The successful takeoff ended an eight-month lull for the Indian space agency.\n[ISRO EOS-05 Launch With GSLV-F17 Rocket A Big ... - News18] Sep 4, 2026 · ISRO successfully launched EOS-05 aboard GSLV-F17 on September 4, 2026. Here is why India's first geosynchronous imaging satellite matters for disaster monitoring and security."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_AMZHkm5P86DlEX8pr7VcE9h9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"EOS-05 ISRO\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AMZHkm5P86DlEX8pr7VcE9h9",
+   "content": "[EOS-05] <p class=\"mw-empty-elt\"> </p> <p><b>EOS-05</b> (also known as <b>GISAT-1A</b>) is an Indian Earth observation satellite. It is the second satellite in the GISAT series produced by ISRO. The satellite aims to improve the existing remote sensing capabilities.</p> <h2 data-mw-anchor=\"Objectives\" data-mw-wikitext=\"\">Objectives</h2> <p>GISATs image in multi-spectral and hyper-spectral bands to provide near real-time pictures of large areas of India, under cloud-free conditions, at frequent intervals which is, selected field image in every 5 minutes and entire Indian landmass image every 30 minutes at 42 metres (138 ft) spatial resolution. </p><p>These near real-time observations serve for monitoring of natural disasters like cyclones, floods, cloudbursts, and forest fires, as well as for agricultural assessment and security surveillance. </p> <h2 data-mw-anchor=\"Instruments\" data-mw-wikitext=\"\">Instruments</h2> <ul><li>700 mm Ritchey–Chrétien telescope based on the design of Cartosat-2A</li> <li>Array detectors in Visible and Near-InfraRed (VNIR), and Short Wave-InfraRed (SWIR) bands</li></ul> <h2 data-mw-anchor=\"Launch\" data-mw-wikitext=\"\">Launch</h2> <p>GISAT-1A was launched from Launchpad 2 of the Satish Dhawan Space Centre aboard the GSLV-F17 mission at 2:55 am IST on 4 September 2026. The satellite was placed at the intended Sub-Geosynchronous Transfer Orbit (Sub-GTO) about 18 minutes after lift-off. At 2,637 kg, the satellite is the heaviest satellite launched by GSLV. </p><p>On 5 and 6 September, the satellite fired its Liquid Apogee Motor (LAM) engine twice for 5,406.4 seconds (about 90 minutes) until 8:19 pm IST and 5 minutes to reach orbits at 20,000 km × 31,129 km and 35,786 km, respectively. The satellite was originally present at an altitude of 171 km. </p><p>On 7 September, the third and final orbit raising manoeuvre to reach its intended geosynchronous orbit with altitudes ranging between 34,903 km × 35,884 km. The LAM engine fired for 1247 second"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 4 September",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

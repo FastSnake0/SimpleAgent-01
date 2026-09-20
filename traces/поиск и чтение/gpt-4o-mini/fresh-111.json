@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-111",
+  "source": "fresh",
+  "question": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?",
+  "answer": "prime minister",
+  "evidence": "June 22 – Following months of criticism and pressure, Keir Starmer resigned as prime minister of the United Kingdom. Starmer later resigned his membership as Member of Parliament to assume his role as member of the Chiltern Hundreds on September 1.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: UK Prime Minister",
+ "correct": true,
+ "cost": 0.00019530000000000936,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nZrexPZGQHoWt471OTr4NBJ5",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Keir Starmer resigns June 22 2026 position\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nZrexPZGQHoWt471OTr4NBJ5",
+   "content": "[2026 Labour Party leadership crisis - Wikipedia] In 2026, a leadership crisis emerged within the Labour Party amid public and internal party dissatisfaction with Keir Starmer, the prime minister of the United Kingdom, and his government. It led to Starmer announcing his resignation on 22 June; he was replaced by Andy Burnham as leader on 17 July, and as Prime Minister on 20 July.\n[British Prime Minister Keir Starmer Announces Resignation ...] Jun 22, 2026 · Keir Starmer announced his resignation as UK Prime Minister and Labour Party leader on Monday, June 22, 2026. The announcement follows poor results in local elections held in the weeks prior to June 22, 2026, which significantly eroded Labour’s political mandate.\n[Keir Starmer Resigns As UK Prime Minister - Deadline] Jun 22, 2026 · Home International News UK Prime Minister Keir Starmer Resigns, Signaling Period Of Political Turbulence By Max Goldbart, Zac Ntim June 22, 2026 1:37am 7 Comments Keir Starmer Carl Court/Getty"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: UK Prime Minister",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

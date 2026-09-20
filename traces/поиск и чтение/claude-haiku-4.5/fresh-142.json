@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?",
+  "answer": "Diamond DA42 Twin Star",
+  "evidence": "29 April — Two people are killed and 11 others are injured when a Diamond DA42 Twin Star crashes into a hangar at Parafield Airport in South Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. According to the Wikipedia article about Parafield Airport, on 29 April 2026, a Diamond DA42 aircraft crashed into a hangar, killing two people and injuring several others (which matches the 11 injured mentioned in your question).\n\nFINAL: Diamond DA42",
+ "correct": false,
+ "cost": 0.01437299999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed into a hangar at Parafield Airport in South Australia on 29 April, killing two people and injuring 11 others?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the aircraft crash at Parafield Airport on April 29.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014y9bNBkWafcLdyqCqY2AhK",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Parafield Airport crash April 29 South Australia aircraft hangar\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014y9bNBkWafcLdyqCqY2AhK",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try with the Wikipedia search function:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NQuYEMJHZ1FpakakxNb6zB",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Parafield Airport crash 29 April\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NQuYEMJHZ1FpakakxNb6zB",
+   "content": "[Parafield Airport] <p class=\"mw-empty-elt\"> </p> <p><b>Parafield Airport</b> (ICAO: <b>YPPF</b><span data-plural=\"0\"></span>) is a public training airport, located on the edge of the residential suburb of Parafield, South Australia. It is 18 km (11 mi) north of the Adelaide central business district and adjacent to the Mawson Lakes campus of Adelaide University. Owned by the Government of Australia, it is leased to Parafield Airport Limited under a lease that runs until 2097. </p><p>Parafield was Adelaide's only civil airport until Adelaide Airport was opened in February 1955 and is currently used for small aircraft, pilot training and recreational aviation. The airport is home to the University of South Australia Aviation Academy. The airport hosts a jet fighter museum and historic aircraft displays. The museum now houses an authentic flight worthy Wirraway. </p><p>There are also multiple flight training schools including Adelaide University's Aviation Academy, FTA (Flight Training Adelaide) formerly known as Australian Aviation College, Adelaide Aviation, Enzo Flying School, Aerostar Aviation, and Parafield Flying Centre. Parafield Squadron of the Australian Air League, a national uniformed cadet organisation promoting and encouraging the interest of aviation and flying training in the youth of Australia, is also located at Parafield Airport. </p><p>During the 2020 financial year, Parafield Airport was Australia's busiest airport by aircraft movements, handling 272,646 aircraft movements. As of 2025, it became Australia's 5th busiest, handling 225,142 aircraft movements. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>The first powered flight in South Australia was of a Blériot Aéronautique monoplane on March 13, 1910, south-west of Salisbury in Bolivar, South Australia, the flight was nicknamed the \"Wittber hop\". In the 1920s investigations began into construction of an airport in Adelaide. Land was initially purchased in Albert Park with t"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for the crash incident:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015PuoHLFmD8wQ4RPwnEWkjj",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Parafield Airport\", \"keywords\": \"crash, 29 April, hangar, killed, injured\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015PuoHLFmD8wQ4RPwnEWkjj",
+   "content": "On 17 March 2013, a Supermarine Aircraft Spitfire Mk26, an 80% scale home-build replica of the Supermarine Spitfire, crashed into a fence between two businesses in a commercial area on Frost Road in the nearby suburb of Salisbury, whilst completing a routine at the airshow, killing the pilot.\nIn 2018, a Cessna 172 crashed into a paddock next to Parafield Airport. The plane took off but it started to have problems immediately and the pilot caused the plane to crash. There were no deaths or injuries.\nOn 5 January 2026, a Cessna 172M crashed next to runway 21L. The accident caused a small grass fire which was extingued. The sole occupant escaped the aircraft with only minor injuries.\nOn 29 April 2026, two people died and several others were injured when a Diamond DA42 plane crashed into a hangar and caught fire."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. According to the Wikipedia article about Parafield Airport, on 29 April 2026, a Diamond DA42 aircraft crashed into a hangar, killing two people and injuring several others (which matches the 11 injured mentioned in your question).\n\nFINAL: Diamond DA42",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

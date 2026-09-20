@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Helter Skelter",
+ "correct": true,
+ "cost": 0.00035714999999991726,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4YqmyBckyRpdQkFZmTgtvPVQ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice art exhibition May 2026 title\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4YqmyBckyRpdQkFZmTgtvPVQ",
+   "content": "[Helter Skelter: Arthur Jafa and Richard Prince - Fondazione Prada Venice] The upcoming exhibition by Arthur Jafa and Richard Prince, curated by Nancy Spector, from May 2026 at Fondazione Prada in Venice.\n[PDF Fondazione Prada Announces Its 2026 Program in Milan and Venice] From January 2026, Fondazione Prada will present a broad range of exhibition formats and cultural initiatives stemming from its ever-evolving research process. The program will include thematic exhibitions, solo shows dedicated to prominent art figures such as Cao Fei, Cyprien Gaillard, Mona Hatoum, Arthur Jafa, Richard Prince, and Hito Steyerl, an extensive cinema program and talk series ...\n[Venice 2026: The Most Anticipated Exhibitions | the PhotoPhore] At Fondazione Prada, Helter Skelter: Arthur Jafa and Richard Prince (9 May-23 November 2026), curated by Nancy Spector, stages a charged dialogue between two influential American artists. Drawing from film, music, mass media and internet culture, the exhibition dissects the myths, violence, and contradictions of American popular imagery."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ROYKpgullRftnCFywbWsmpkk",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Fondazione Prada Helter Skelter Arthur Jafa Richard Prince exhibition May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ROYKpgullRftnCFywbWsmpkk",
+   "content": "[Helter Skelter: Arthur Jafa and Richard Prince - Fondazione Prada Venice] The upcoming exhibition by Arthur Jafa and Richard Prince, curated by Nancy Spector, from May 2026 at Fondazione Prada in Venice.\n[Helter Skelter: Arthur Jafa and Richard Prince - Fondazione Prada Venezia] Helter Skelter è la mostra di Arthur Jafa e Richard Prince a cura di Nancy Spector presentata da maggio 2026 alla Fondazione Prada Venezia.\n[Arthur Jafa & Richard Prince - Helter Skelter - Almine Rech] Fondazione Prada presents 'Helter Skelter: Arthur Jafa and Richard Prince,' an exhibition curated by Nancy Spector, in its Venetian venue, Ca' Corner della Regina, from 9 May to 23 November 2026, during the Art Biennale."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Helter Skelter",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

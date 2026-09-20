@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have access to real-time data or publications from May 2026, as my knowledge cutoff is early 2025 and I cannot browse the internet or access future information.\n\nFor the most accurate and up-to-date median overall survival data for metastatic pancreatic cancer as of May 2026, I recommend:\n\n1. **PubMed/MEDLINE** – searching recent clinical trial results\n2. **ASCO, ESMO, or AACR conference proceedings** from 2025–2026\n3. **ClinicalTrials.gov** for recent trial outcomes\n4. **NCCN Guidelines** updated versions\n\nAs of my knowledge cutoff (early 2025), the median overall survival for metastatic pancreatic cancer with standard regimens (e.g., FOLFIRINOX or gemcitabine + nab-paclitaxel) was approximately **8–12 months**, depending on the regimen and patient population.\n\nFINAL: 8–12 months",
+ "correct": false,
+ "cost": 0.004422000000000009,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to real-time data or publications from May 2026, as my knowledge cutoff is early 2025 and I cannot browse the internet or access future information.\n\nFor the most accurate and up-to-date median overall survival data for metastatic pancreatic cancer as of May 2026, I recommend:\n\n1. **PubMed/MEDLINE** – searching recent clinical trial results\n2. **ASCO, ESMO, or AACR conference proceedings** from 2025–2026\n3. **ClinicalTrials.gov** for recent trial outcomes\n4. **NCCN Guidelines** updated versions\n\nAs of my knowledge cutoff (early 2025), the median overall survival for metastatic pancreatic cancer with standard regimens (e.g., FOLFIRINOX or gemcitabine + nab-paclitaxel) was approximately **8–12 months**, depending on the regimen and patient population.\n\nFINAL: 8–12 months",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

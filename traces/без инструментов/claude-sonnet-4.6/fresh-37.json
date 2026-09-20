@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I need to find information about resident doctors in England announcing a four-day strike in June 2026.\n\nLet me search for this information.\n\nI don't have reliable information about events in June 2026, as my knowledge cutoff is early 2025. I cannot accurately answer this question without access to current news sources.\n\nHowever, let me think about what I know - I don't have data about this specific event.\n\nI'm unable to verify this fact from my training data. I cannot provide a reliable answer about a specific announcement date for a strike in June 2026.\n\nFINAL: Дата неизвестна",
+ "correct": false,
+ "cost": 0.0029849999999999877,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about resident doctors in England announcing a four-day strike in June 2026.\n\nLet me search for this information.\n\nI don't have reliable information about events in June 2026, as my knowledge cutoff is early 2025. I cannot accurately answer this question without access to current news sources.\n\nHowever, let me think about what I know - I don't have data about this specific event.\n\nI'm unable to verify this fact from my training data. I cannot provide a reliable answer about a specific announcement date for a strike in June 2026.\n\nFINAL: Дата неизвестна",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

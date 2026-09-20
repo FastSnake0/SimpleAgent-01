@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-109",
+  "source": "fresh",
+  "question": "What type of incident is investigated by Counter Terrorism Policing in May 2026?",
+  "answer": "conspiracy to commit arson",
+  "evidence": "10 May – Counter Terrorism Policing arrest a man and a woman on suspicion of conspiracy to commit arson following an attack at the former East London Central Synagogue in Whitechapel. Police say the incident is being investigated alongside several apparent attacks on Jewish sites in London since late March.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Мне нужно больше информации о предполагаемом инциденте в мае 2026 года, чтобы дать точный ответ, так как у меня нет доступа к будущим событиям или данным. Могу помочь с информацией о предыдущих инцидентах или полицейских действиях.",
+ "correct": false,
+ "cost": 6.839999999996849e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What type of incident is investigated by Counter Terrorism Policing in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Мне нужно больше информации о предполагаемом инциденте в мае 2026 года, чтобы дать точный ответ, так как у меня нет доступа к будущим событиям или данным. Могу помочь с информацией о предыдущих инцидентах или полицейских действиях.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

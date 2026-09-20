@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "What is the name of the NASA mission that launched on April 1, 2026?",
+  "answer": "Artemis II",
+  "evidence": "On 1 April 2026, the Orion spacecraft lifted off from NASA's Kennedy Space Center and successfully launched the Artemis II crew into orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "Artemis II",
+  "agent_ok": true
+ },
+ "answer": "Perfect! Based on the search results, the NASA mission that launched on April 1, 2026 is **Artemis II**.\n\nFINAL: Artemis II",
+ "correct": true,
+ "cost": 0.009606999999999921,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the NASA mission that launched on April 1, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about NASA missions launching on April 1, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_013P6erFq4fnL67usjW1d7nd",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"NASA mission launch April 1 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013P6erFq4fnL67usjW1d7nd",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01ByTJHgycVMazmnp774JDM6",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"\\\"April 1 2026\\\" NASA mission\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01ByTJHgycVMazmnp774JDM6",
+   "content": "[List of spaceflight launches in April–June 2026 - Wikipedia] First crewed mission beyond low Earth orbit since Apollo 17 in 1972. First woman, person of color, and person not from the United States to fly beyond low Earth orbit and to the Moon's vicinity. Became farthest crewed spaceflight from Earth, at a maximum distance of 252,756 miles (406,771 km).\n[NASA targets April 1, 2026, launch date for Artemis II crewed ...] Mar 13, 2026 · NASA is targeting an April 1 launch for Artemis II, its first crewed mission around the moon since Apollo, after a successful flight readiness review.\n[Liftoff! NASA Launches Astronauts on Historic Artemis Moon ...] Apr 1, 2026 · The SLS (Space Launch System) launches with the Artemis II crew aboard the Orion spacecraft on April 1, 2026, at NASA’s Kennedy Space Center in Florida."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! Based on the search results, the NASA mission that launched on April 1, 2026 is **Artemis II**.\n\nFINAL: Artemis II",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

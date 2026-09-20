@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.00018300000000004424,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PVsP318bpKOtnPyqCLOzGHiz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PVsP318bpKOtnPyqCLOzGHiz",
+   "content": "[2026 United States House of Representatives elections] <p class=\"mw-empty-elt\"> </p> <p>The <b>2026 United States House of Representatives elections</b> are scheduled to be held on Tuesday, November 3, 2026, as part of the 2026 midterm elections during President Donald Trump's second nonconsecutive term. Voters will elect representatives from all 435 congressional districts across each of the fifty U.S. states, and five of the six non-voting delegates from the District of Columbia and the inhabited U.S. territories. </p><p>Special elections are also being held on dates throughout 2026. Numerous other federal, state, and local elections, including elections to the Senate, will be held on this date. The winners of this election will serve in the 120th United States Congress, with seats apportioned among the states based on the 2020 United States census and revised district maps as a result of the 2025–2026 United States redistricting. </p><p>Primary elections for all 435 House seats, and five of the six non-voting delegate seats were held starting on March 3, and concluded on September 15, 2026. </p> <h2 data-mw-anchor=\"Retirements\" data-mw-wikitext=\"\">Retirements</h2> <h3 data-mw-anchor=\"Summary\" data-mw-wikitext=\"\">Summary</h3> <p>61 representatives and two non-voting delegates (26 Democrats and 37 Republicans) have announced their retirement, 29 of whom (9 Democrats and 20 Republicans) are retiring to run for other offices. This is the second-most retirements of representatives in a single election cycle in US history next to 1992, which saw 65 total retirements. </p> <h3 data-mw-anchor=\"Democratic\" data-mw-wikitext=\"\">Democratic</h3> <h3 data-mw-anchor=\"Republican\" data-mw-wikitext=\"\">Republican</h3> <h2 data-mw-anchor=\"Resignations\" data-mw-wikitext=\"\">Resignations</h2> <p>Two seats will be left vacant on the day of the general election until the next Congress due to resignations. </p> <h3 data-mw-anchor=\"Democratic_2\" data-mw-wikitext=\"\">Democratic</h3> <ol><li"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

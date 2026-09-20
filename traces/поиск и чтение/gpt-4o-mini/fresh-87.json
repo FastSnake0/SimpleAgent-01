@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-87",
+  "source": "fresh",
+  "question": "Who is the President of Peru that was censured on January 9, 2026?",
+  "answer": "José Jerí",
+  "evidence": "February 17 – President of Peru José Jerí is censured by the Congress of Peru, removing him from office. He is succeeded by José María Balcázar.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: José Jerí",
+ "correct": true,
+ "cost": 0.0004316999999999238,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Who is the President of Peru that was censured on January 9, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HYAhR9fiGVWCp42xKtySTiPx",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"President of Peru censured January 9, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HYAhR9fiGVWCp42xKtySTiPx",
+   "content": "[Vote of no confidence against José Jerí - Wikipedia] The only parties who voted against the impeachment proceedings were We Are Peru, led by Jerí, and Popular Force, led by Keiko Fujimori. Jerí's impeachment was structured as a vote of no confidence rather than the traditional \"permanent moral incapacity\" under Article 113 of the Constitution of Peru. [6]\n[2026 Peruvian general election - WikipediaPeru ousts a president under the shadow of Chinese meddlingPeru Ousts President for Second Time in Less Than Six MonthsPeru's president removed by Congress, legislature chief sworn inPerú dispatch: decade of turmoil meets 2026 presidential ...] Peru's Congress has voted to remove President Dina Boluarte, among the world's most unpopular leaders, in a late-night session called hours after political parties from across the spectrum demanded her impeachment, as the nation fights an intensive crime wave. Feb 19, 2026 · Peru's Congress impeached interim president José Jerí after four months in office following revelations about meetings with a Chinese businessman in the Chifagate scandal. | The Americas Feb 18, 2026 · Peru’s Congress voted on Tuesday to oust the country’s interim President José Jerí just four months after he took office following a scandal over the leader’s failure to report meetings with... Oct 10, 2025 · LIMA (Reuters) -Peru's lawmakers swore in Congress chief Jose Jeri as the country's new president less than an ho\n[Peru’s President José Jerí ousted, marking eighth change in ...] Feb 17, 2026 · Peru’s president has been ousted after being censured by Congress, marking the country’s eighth change of leader in nearly a decade of political instability."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LU4jK78y8FQQGb1QK9dvcp3U",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Vote of no confidence against José Jerí\",\"keywords\":\"January 9, 2026, President of Peru, censured\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LU4jK78y8FQQGb1QK9dvcp3U",
+   "content": "On 17 February 2026, the Peruvian Congress approved the motion of no confidence of José Jerí from the position of president of Peru under a vote of no confidence. Unlike impeachment, which requires a supermajority of 87 in the 130-member legislature, Congress voted to remove Jerí, stripping him of his title as President of Congress with a simple majority of 66 votes. His presidential status from succession (being the constitutional president of the republic ex officio as president of Congress) meant that this removed him from the presidency. Jerí became the sixth president removed by Congress, and the fourth of the 2020s, after Guillermo Billinghurst (1914), Alberto Fujimori (2000), Martín Vizcarra (2020), Pedro Castillo (2022), and Dina Boluarte (2025).\nJerí held clandestine meetings with Chinese businessmen, especially with Zhihua Yang, in places such as a chifa restaurant on 26 December 2025 and the \"Market Capón\" in the Barrio Chino on 6 January 2026, Jerí justified it as a simple candy purchase. The first meeting, held at a Chinese restaurant in Lima on December 26, sparked controversy after images showed the president entering the establishment wearing a hood. Neither of these meetings was registered in presidential records. Jerí also visited another Chinese businessman, Jiwu Xiaodong, who was under house arrest for illegal activities.\nIn February 2026, the Attorney General's Office had raised questions about Yang's potential interference in government decisions and contracts. They also alleged that Jerí had lied before Congress and in media interviews about his dealings with Yang. Jerí acknowledged the meetings took place and apologized for how they had been conducted.\nActing President of Congress Fernando Rospigliosi, who would have been next in line for the presidency, declined to assume the office, necessitating a vote by Congress to appoint a new president. Several news organizations noted the political instability in the country due to the rapid removal "
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: José Jerí",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

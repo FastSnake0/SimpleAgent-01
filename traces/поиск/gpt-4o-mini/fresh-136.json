@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Where will the 2026 FEI World Championships be held from 11–23 August?",
+  "answer": "Aachen",
+  "evidence": "11–23 August – 2026 FEI World Championships in Aachen.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Aachen",
+ "correct": true,
+ "cost": 0.00037965000000006466,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай.\nКогда ответ готов, напиши его последней строкой в формате FINAL: <ответ>.\nФормат ответа в FINAL: только сама сущность — имя, число, название, место или дата, не длиннее пяти слов. На языке вопроса.\nНе добавляй ничего, о чём не спросили напрямую: к дате не приписывай год, если вопрос не просит именно год; к городу не приписывай страну или регион; не оборачивай ответ в предложение и не поясняй его.\nПример: если вопрос про дату события — FINAL: 15 September, а не FINAL: 15 September, 2026. Если вопрос про место — FINAL: New Delhi, а не FINAL: New Delhi, India.\nДля числовых задач в FINAL только число."
+  },
+  {
+   "role": "user",
+   "content": "Where will the 2026 FEI World Championships be held from 11–23 August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7Da3MZJ47RiUnhpUoq0iBFrV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FEI World Championships location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7Da3MZJ47RiUnhpUoq0iBFrV",
+   "content": "[FEI World Equestrian Games] <p class=\"mw-empty-elt\"> </p> <p>The <b>FEI World Equestrian Games</b> are the major international championships for equestrianism, and are administered by the Fédération Équestre Internationale (FEI). The games have been held every four years, halfway between sets of consecutive Summer Olympic Games, since 1990. Prior to that year, all ten of the FEI's individual disciplines held separate championships, usually in separate countries. The modern WEG runs over two weeks and, like the Olympics, the location rotates to different parts of the world. Riders and horses competing at WEG go through a rigorous selection process, and each participating country sends teams that have distinguished themselves through competition as the nation's best in each respective discipline. At the 2010 Games, 57 countries were represented by 800 people and their horses. </p><p>The WEG gradually expanded to include eight of the FEI's ten disciplines: combined driving, dressage, endurance riding, eventing, paraequestrianism, reining, show jumping, and vaulting. The FEI's two remaining regional disciplines, horseball and tent pegging, still conduct independent championships. </p><p>The 2010 FEI World Equestrian Games in Lexington, Kentucky marked a series of firsts in WEG history: the first time WEG were held outside Europe; the first time that championships for eight FEI disciplines were held at one location (the Kentucky Horse Park); and the first time WEG had a title sponsor (in this case the animal health and nutrition group corporation Alltech, headquartered in the nearby city of Nicholasville). Permanent upgrades added to the Kentucky Horse Park leading up to the event included the completion of a 6,000 seat, climate-controlled indoor arena and completion of a 7,500 seat outdoor stadium. </p><p>The Tryon International Equestrian Center, near Mill Spring, North Carolina, was the location of the 2018 FEI World Equestrian Games. </p><p>Tryon 2018 was the last W"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vBWdmPgqnkSW8B4qm3YuJ3Ef",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FEI World Championships host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vBWdmPgqnkSW8B4qm3YuJ3Ef",
+   "content": "[2026 FEI World Championships] <p>The <b>FEI World Championships Aachen 2026</b> was held in Aachen, Germany, from 11 to 23 August 2026. It was the tenth edition of the Games, which are held every four years and run by the International Federation for Equestrian Sports (FEI). For team events in the dressage, show jumping and eventing disciplines, these Games are the first qualifying event for the 2028 Summer Olympics. Aachen previously hosted the 2006 FEI World Equestrian Games. </p> <h2 data-mw-anchor=\"Bidding_process\" data-mw-wikitext=\"\">Bidding process</h2> <p>The FEI opened the bidding process of the 2026 World Championships October 2022 after the completion of the 2022 FEI World Championships in Herning and concluded the process in June 2023. In total there were five candidates interested in hosting the eventing, while only Aachen launched an official bid for six FEI disciplines including Show-Jumping, Dressage and Para-Dressage, Eventing, Driving Four-In-Hand and Vaulting. The other bids came from Boekelo, Netherlands for Eventing, Burghley, United Kingdom for Eventing, al-Ula, Saudi Arabia and Šamorín, Slovakia both for the FEI World Championships Endurance. </p><p>During the Board meeting in November 2023 during the FEI General Assembly in Mexico City, the FEI allocated the 2026 FEI World Championships for the six disciplines to Aachen, who hosted the same FEI World Equestrian Games in 2006 as well. The FEI World Championships for Endurance was allocated to al-Ula. </p> <h2 data-mw-anchor=\"Venues_and_disciplines\" data-mw-wikitext=\"\">Venues and disciplines</h2> <p>Competition venues at the Soers in Aachen hosted the following disciplines: </p> <ul><li>Main Stadium – Jumping, Dressage, Eventing (Jumping Test), Side Events</li> <li>Stadium 2 – Driving, Eventing (Dressage Test)</li> <li>Stadium 3 – Para-equestrian, Vaulting</li> <li>Cross-Country Course Soers – Eventing (Cross-Country Test)</li></ul> <p><br/> </p> <h2 data-mw-anchor=\"Participating_nations\" data-"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Aachen",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
